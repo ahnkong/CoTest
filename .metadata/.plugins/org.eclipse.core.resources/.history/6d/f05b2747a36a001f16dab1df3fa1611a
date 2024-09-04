@@ -22,7 +22,7 @@ h번 이상 인용된 논문이 h편 이상이고 나머지 논문이 h번 이�
 그리고 나머지 2편의 논문은 3회 이하 인용되었기 때문에 이 과학자의 H-Index는 3입니다.*/
 
 
-public class H_Index {
+public class Hindex {
 	public static void main(String[] args) {
 		
 		
@@ -78,3 +78,4 @@ public class H_Index {
 
 
 	
+
