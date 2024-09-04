@@ -1,0 +1,26 @@
+package level2;
+
+public class 올바른괄호 {
+	public static void main(String[] args) {
+	       
+//			boolean answer = true;
+			String str = ")()(";
+			boolean res = 0;
+			
+			
+			char first = str.charAt(0);
+			char end = str.charAt(str.length()-1);
+			
+			
+			System.out.println(str.length());
+			System.out.println(first);
+//			=> output )
+			
+			if(first == '(' && end == ')') {
+				res = true;
+			} 
+	       
+			System.out.println(res);
+			
+	}
+}
