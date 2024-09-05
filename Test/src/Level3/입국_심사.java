@@ -30,7 +30,7 @@ public class 입국_심사 {
 		long answer = 0;
 		
 		
-		
+	
 		
 		
 		
