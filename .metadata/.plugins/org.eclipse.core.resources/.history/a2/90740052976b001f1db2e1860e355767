@@ -1,0 +1,59 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class 폰켓몬class구현 {
+    public static void main(String[] args) {
+        // Test case 1
+        int[] nums1 = {3, 1, 2, 3};
+        PokemonSelector selector1 = new PokemonSelector(nums1);
+        System.out.println(selector1.getMaxTypes()); // 결과는 2
+        
+        // Test case 2
+        int[] nums2 = {3, 3, 3, 2, 2, 4};
+        PokemonSelector selector2 = new PokemonSelector(nums2);
+        System.out.println(selector2.getMaxTypes()); // 결과는 3
+        
+        // Test case 3
+        int[] nums3 = {3, 3, 3, 2, 2, 2};
+        PokemonSelector selector3 = new PokemonSelector(nums3);
+        System.out.println(selector3.getMaxTypes()); // 결과는 2
+    }
+}
+
+class PokemonSelector {
+    private int[] nums;
+    private int maxTypes;
+
+    // Constructor
+    public PokemonSelector(int[] nums) {
+        this.nums = nums;
+        this.maxTypes = calculateMaxTypes();
+    }
+
+    // Getter for maxTypes
+    public int getMaxTypes() {
+        return maxTypes;
+    }
+
+    // Setter for nums (for future flexibility)
+    public void setNums(int[] nums) {
+        this.nums = nums;
+        this.maxTypes = calculateMaxTypes();
+    }
+
+    // Method to calculate the maximum number of distinct types of Pokemon
+    private int calculateMaxTypes() {
+        // N/2 마리의 폰켓몬을 가져갈 수 있음
+        int maxPickable = nums.length / 2;
+
+        // Set을 사용해 중복된 폰켓몬 종류를 제거
+        Set<Integer> uniquePokemon = new HashSet<>();
+        for (int num : nums) {
+            uniquePokemon.add(num);
+        }
+
+        // 고를 수 있는 폰켓몬 종류의 최댓값은
+        // 종류의 개수와 N/2 중에서 더 작은 값이 됨
+        return Math.min(uniquePokemon.size(), maxPickable);
+    }
+}
