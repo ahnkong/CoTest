@@ -1,2 +1,9 @@
 git 잔디와 함께 무럭무럭 자라길 바라는 새싹 개발자 🌱</br>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ahnkong)](https://github.com/anuraghazra/github-readme-stats)
+- 👋 Hi, I’m @ahnkong
+- 👀 I’m interested in ...futsal
+- 🌱 I’m currently learning ...algorithm
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...Developer
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
