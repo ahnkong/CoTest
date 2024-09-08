@@ -43,7 +43,8 @@ public class 등굣길 {
 	
 	System.out.println(Arrays.toString(route));
 	
-
+	for(int[] row : route) {
+		System.out.println(Arrays.toString(row));
 	}
 
 	

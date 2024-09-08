@@ -1,0 +1,45 @@
+package Level3;
+
+// DP : 동적프로그래밍!
+// 기억 하기 알고리즘
+// 중요! 이전의 결과값을 활용하는 것이다!
+
+//
+
+public class 등굣길 {
+	public static void main(String[] args) {
+		
+	int m = 3;
+	int n = 4;
+	int[][] puddles = {{2,2}};
+	int[][] dp = new int[m][n];
+	dp[0][0] = 1;
+	
+	int route = 0;
+	
+	for (int i = 0; i < m; i++) {
+		for(int j = 0; j < n ; i++) {
+			if(i == 0 && j == 0) continue;
+			
+			boolean isPuddle = false;
+			
+			for(int[]puddle : puddles) {
+				if(puddle[0] == i && puddle[i] == j){
+					isPuddle = true;
+					break;
+				}
+			}
+			if(isPuddle) {
+				puddles[i][j] = 0;
+				
+			}else {
+				if(i> 0)puddles[i][j] += puddles[i-1][j];
+				if(j> 0)puddles[i][j] += puddles[i][j-1];
+			}
+			
+		}
+	}
+	System.out.println(puddles[m-1][n-1]);
+	}
+	
+}

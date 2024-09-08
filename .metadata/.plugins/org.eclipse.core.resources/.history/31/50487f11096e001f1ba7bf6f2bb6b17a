@@ -39,11 +39,13 @@ public class 등굣길 {
 
 	// 경로로 셀수 있으면 1이고, 아니면 0으로 둔다
 	
+	route = {1,1};
 	
 	
 	System.out.println(Arrays.toString(route));
 	
-
+	for(int[] row : route) {
+		System.out.println(Arrays.toString(row));
 	}
 
 	
