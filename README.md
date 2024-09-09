@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=150&section=header&text=🌱ahn%20coco&fontSize=50" />
-  <p>🤚🏻안녕하세요! 도전을 두려워하지 않은 개발자입니다!.
+  <img src="https://capsule-render.vercel.app/api?type=Cylinder&color=auto&height=150&section=header&text=👩🏻‍💻ahn%20coco🙊&fontSize=50" />
+  <p>🤚🏻안녕하세요! 도전을 두려워하지 않는 성장형 개발자입니다!<br>
+  <p>도전 정신, 커뮤니케이션에 탁원하며, 문서 작성력까지 겸비 하고 있습니다.<br>
+    
   <h3 align="center">👩‍💻 My Github Stats 👩‍💻</h3>
 
   [![ahnkong's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ahnkong&show_icons=true&hide_border=true&title_color=004386&icon_color=004386&layout=compact)](https://github.com/ahnkong)
