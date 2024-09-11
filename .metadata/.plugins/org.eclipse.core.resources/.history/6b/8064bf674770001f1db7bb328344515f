@@ -1,0 +1,25 @@
+package level0;
+
+public class 대문자와소문자_0911 {
+	public static void main(String[] args) {
+		String answer = "";
+		String my_string = "accCCC";
+		String my_string = "azcAZC";
+		int temp = 0;
+		//대문자에!
+		System.out.println(my_string.toUpperCase());
+		
+		for(int i = 0; i < my_string.length() ; i++) {
+				temp = (int)my_string.charAt(i);
+				
+				
+				System.out.println(i + "번째 : " + temp);
+			if(temp >= 97) {
+				
+			}
+//			if(my_string.charAt(i));
+			
+		}
+		
+	}
+}

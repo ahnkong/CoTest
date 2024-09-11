@@ -1,0 +1,26 @@
+package level1;
+
+/*
+ * 전체 예산 정해져인ㅆ음.
+ * 최대한 많은 부서에게 물품을 구매해주려고 함.
+ * 신청한 금액은 정확하게 주어야 함 => 오케
+ * 
+ * 
+ * */
+public class d240911_예산 {
+	public static void main(String[] args) {
+		int[] d = {1, 3, 2, 5, 4};
+		int budget = 9;
+		int answer = 0;
+		int temp = 0; 
+		
+		while(temp <= budget) {
+			for(int i = 0; i < d.length ; i++) {
+				System.out.println(d(i));
+//				temp += d(i);
+			
+			}
+		}
+	}
+	
+}
