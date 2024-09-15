@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;level1.d0915_제일작은수제거하기&apos; to &apos;d240915_제일작은수제거하기&apos;&#x0D;&#x0A;- Original project: &apos;Test&apos;&#x0D;&#x0A;- Original element: &apos;level1.d0915_제일작은수제거하기&apos;&#x0D;&#x0A;- Renamed element: &apos;level1.d240915_제일작은수제거하기&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;d0915_제일작은수제거하기&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;level1{d0915_제일작은수제거하기.java[d0915_제일작은수제거하기" matchStrategy="1" name="d240915_제일작은수제거하기" patterns="*" qualified="true" references="true" similarDeclarations="false" stamp="1726410852656" textual="false" version="1.0"/>
+</session>
