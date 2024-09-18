@@ -1,5 +1,5 @@
 package level1;
-//6분
+
 public class d240918_음양더하기 {
 	public static void main(String[] args) {
 		
@@ -23,8 +23,8 @@ public class d240918_음양더하기 {
 			}
 			else {
 				temp = temp - absolutes[i];
+				System.out.println(temp);
 			}
-//			System.out.println(temp);
 		}
 		
 		System.out.println(temp);

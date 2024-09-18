@@ -1,5 +1,5 @@
 package level1;
-//6분
+
 public class d240918_음양더하기 {
 	public static void main(String[] args) {
 		
@@ -12,21 +12,16 @@ public class d240918_음양더하기 {
 //		for( int absolute : absolutes) {
 //			System.out.print(absolute + " ");
 //		}
-//		for (int i = 0; i < absolutes.length; i++) {
-//			temp = temp + absolutes[i];
-//		}
+		for (int i = 0; i < absolutes.length; i++) {
+			temp = temp + absolutes[i];
+		}
 		
 		
 		for(int i = 0; i < signs.length; i++) {
-			if(signs[i] == true) {
-				temp = temp + absolutes[i];
-			}
-			else {
+			if(signs[i] == false) {
 				temp = temp - absolutes[i];
 			}
-//			System.out.println(temp);
+			
 		}
-		
-		System.out.println(temp);
 	}
 }
