@@ -25,8 +25,8 @@ public class d240914_삼총사 {
 //		
 		
 		for (int i = 0; i < number.length; i++) {
-			for (int j = i+1; j < number.length; j++) {
-				for (int z = j+1; z < number.length; z++) {
+			for (int j = 0; j < number.length; j++) {
+				for (int z = 0; z < number.length; z++) {
 					if(number[i] + number[j] + number[z] == 0 ) {
 						cnt++;
 					}
