@@ -1,0 +1,27 @@
+package algorithm;
+
+import java.util.Stack;
+
+public class d240919_해시_전화번호목록 {
+// 어떤 번호가 다른 번호의 접두어인 경우가 있으면 false를 
+//그렇지 않으면 true를 return 하도록 solution 함수를 작성
+	
+	
+	public static void main(String[] args) {
+		
+		String[] phone_book = {"119", "97674223", "1195524421"}; // 119-1195524421 => false
+//		String[] phone_book = {"123","456","789"}; //=> true
+		
+		boolean answer = true;
+		
+		Stack<String> stackStr = new Stack<>();
+		
+		
+		for(String phone : phone_book) {
+			System.out.print(phone + " ");
+		}
+		
+		stackStr.push(1);
+		
+	}
+}
