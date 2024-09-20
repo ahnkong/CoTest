@@ -42,7 +42,7 @@ public class d240919_해시_전화번호목록 {
 
 		
 		//스택이 아닌 전체 탐색으로 먼저 다시 풀어보자
-		Arrays.sort(phone_book);
+//		Arrays.sort(phone_book);
 		System.out.println(Arrays.toString(phone_book));
 		
 		for (int i = 0; i < phone_book.length; i++) {

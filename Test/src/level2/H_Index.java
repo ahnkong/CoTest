@@ -57,7 +57,7 @@ public class H_Index {
 			} else {
 				break;
 			}
-		}a 
+		}
 		System.out.println(answer);
 	}//메인
 }//클래스
