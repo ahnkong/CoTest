@@ -12,12 +12,11 @@ public class d240919_해시_전화번호목록 {
 	public static void main(String[] args) {
 		
 //		String[] phone_book = {"119", "97674223", "1195524421"}; // 119-1195524421 => false
-		String[] phone_book = {"11", "1", "22", "221", "234", "3945" }; //=> false
+//		String[] phone_book = {"11", "1", "22", "221" }; //=> false
 //		String[] phone_book = {"123","456","789" }; //=> true
-//		String[] phone_book = {"123", "2345", "23467"}; //=> false => 반례
-
+		String[] phone_book = {"123", "2345", "23467"}; //=> false => 반례
+		
 		boolean answer = true;
-		boolean flag = true; // flag 변수
 //		
 		
 //		1)문제에 대한 이해가 잘못 됐었다! - 인덱스 0이 접두어라고 판단하고, 0-1 | 0-2 이렇게만 탐색함.
@@ -48,20 +47,24 @@ public class d240919_해시_전화번호목록 {
 		// 전체 탐색
 		System.out.println(Arrays.toString(phone_book));
 		
-
-		for (int i = 0; i < phone_book.length-1; i++) {
-			for (int j = i+1; j < phone_book.length; j++) {
-				if(phone_book[j].startsWith(phone_book[i])) {
+		for (int i = 0; i < phone_book.length; i++) {
+			if(phone_book[i+1].startsWith(phone_book[i])) {
+				answer = false;
+				System.out.println(i + "번째와" +(i+1)+ "의 탐색의 결과 : " + answer );
+				break;
+			} else {
+				answer = true;
+				System.out.println(i + "번째와" +(i+1)+ "의 탐색의 결과 : " + answer );
+			}
+			for (int j = i+1; j < phone_book.length-1; j++) {
+				if(phone_book[i+1].startsWith(phone_book[i])) {
 					answer = false;
-					flag = false;
-					System.out.println(i + "번째와" +j+ "번째의 탐색의 결과 : " + answer );
+					System.out.println(i + "번째와" +(i+1)+ "의 탐색의 결과 : " + answer );
 					break;
 				} else {
-					System.out.println(i + "번째와" +j+ "번째의 탐색의 결과 : " + answer );
+					answer = true;
+					System.out.println(i + "번째와" +(i+1)+ "의 탐색의 결과 : " + answer );
 				}
-			}
-			if(flag != true) {
-				break;
 			}
 		}
 		System.out.println(answer);
