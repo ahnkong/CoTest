@@ -38,9 +38,8 @@ public class 등굣길_DP {
 			map[i][j] = 1;
 		}
 	}
-	for(int[] num : map) {
-		System.out.println(Arrays.toString(num));
-	}
+	
+    System.out.println(Arrays.deepToString(map));
 
 	}
 
