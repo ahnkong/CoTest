@@ -44,11 +44,11 @@ public class 등굣길_DP {
 			map[i][j] = 1;
 		}
 	}
-    for (int i = 0; i < m+1; i++) { //행의 길이
+    for (int i = 0; i < map.length; i++) {
         map[i][0] = 0; // 각 행의 첫 번째 요소를 0으로 변경
     }
-    for (int i = 0; i < n+1; i++) {
-    	map[0][i] = 0; // 각 행의 첫 번째 요소를 0으로 변경
+    for (int i = 0; i < map.length; i++) {
+    	map[0][ㅑ] = 0; // 각 행의 첫 번째 요소를 0으로 변경
     }
 
 	for(int[] row : map) {
