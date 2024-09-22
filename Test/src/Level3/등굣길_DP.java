@@ -39,26 +39,55 @@ public class 등굣길_DP {
 	int[][] puddles = {{2,2}};
 	int temp = 0; //답을 더해나갈 temp변수 선언
 	
+	
+	//0로 셋팅
 	for (int i = 0; i < map.length; i++) {
 		for (int j = 0; j < map[i].length; j++) { // 그 행의 길이가 각각 다를 수 잇기 때문에 이렇게 접근
-			map[i][j] = 1;
+			map[i][j] = 0 ;
+			System.out.print(map[i][j] + " ");
 		}
+		System.out.println();
+		
 	}
-    for (int i = 0; i < m+1; i++) { //행의 길이
-        map[i][0] = 0; // 각 행의 첫 번째 요소를 0으로 변경
-    }
-    for (int i = 0; i < n+1; i++) {
-    	map[0][i] = 0; // 각 행의 첫 번째 요소를 0으로 변경
-    }
-
-	for(int[] row : map) {
-		System.out.println(Arrays.toString(row)); // 지도 초기 셋팅
-	}
+	System.out.println("위에는 지도 펼치기");
 	
+	//
+    for (int i = 1; i < m; i++) { //행의 길이
+        map[i][1] = 1; // 각 행의 첫 번째 요소를 0으로 변경
+    }
+    for (int i = 1; i < n+2; i++) {
+    	map[1][i] = 1; // 각 행의 첫 번째 요소를 0으로 변경
+    }
+    
+    
+    for(int[] print : map) {
+    	for(int element : print) {
+    		System.out.print(element + " ");
+    	}
+    	System.out.println();
+    }
+    
+    
 	// 2.물웅덩이 셋팅
+    for(int[] puddle : puddles) {
+    	
+    	int row = puddle[0];
+    	int col = puddle[1];
+    	
+    	map[row][col] =  -1;
+    	
+    	System.out.println();
+    }
+    
+    for(int[] print : map) {
+    	for(int element : print) {
+    		System.out.print(element + " ");
+    	}
+    	System.out.println();
+    }
 
-//	System.out.println(Arrays.toString(map[][])); // 지도 초기 셋팅
-	
+    
+    //이제 각 배열을 순회하면서 더하기만 해주면 된다. => 이건 내일 아침에 다시 도전
 	}
 
 }
