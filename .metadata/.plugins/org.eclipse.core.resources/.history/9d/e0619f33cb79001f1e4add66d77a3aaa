@@ -35,23 +35,23 @@ public class d240921_스택큐_기능개발 {
  	   	System.out.println("완성되는 날짜 : " +Arrays.toString(day));
  	   	
  	   for (int i = 0; i < day.length; i++) {
+ 		   stack.push(day[0]);
+ 		   cnt++;
  		   for (int j = 1; j < day.length; j++) {
- 			   stack.push(day[i]);
- 			   cnt++;
 				if(stack.peek()>= day[j]) {
 					stack.push(day[j]);
 					cnt++;
 	 	   			System.out.println("Stack : " + stack + " = 완성된 기능 : " + cnt + "개");
-	 	   			answer[j-1] = cnt;
+	 	   			answer[i-1] = cnt;
+	 	   			System.out.println("잘담기고 있나 확인 : " + Arrays.toString(answer));
 	 	   			stack.clear();
 	 	   			System.out.println("stack에 남아있는 값 " + stack);
 				}else {
-					stack.push(day[j]);
+					
 				}
+				System.out.println("stack에 남아있는 값 " + stack);
 				
  		   }
- 		   System.out.println("stack : " + stack);
- 		   System.out.println("answer : " + Arrays.toString(answer));
 		}
 	}
 }
