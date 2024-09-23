@@ -69,12 +69,10 @@ public class 등굣길_DP {
     
     
 	// 2.물웅덩이 셋팅
-    int row = 0;
-    int col = 0;
     for(int[] puddle : puddles) {
     	
-    	row = puddle[0];
-    	col = puddle[1];
+    	int row = puddle[0];
+    	int col = puddle[1];
     	
     	map[row][col] =  -1;
     	
@@ -88,30 +86,8 @@ public class 등굣길_DP {
     	System.out.println();
     }
 
-    for (int i = 1; i <= n; i++) {
-		for (int j= 1; j <= m; j++) {//
-			if(map[i][j] == -1) {
-				map[i][j] = 0;
-				continue;
-			}
-			
-			//
-			if(i > 1 && map[i-1][j] != -1) {
-				map[i][j] = map[i][j-1] + map[i-1][j];
-				
-			}
-			if(j> 1 && map[i][j-1] != -1) {
-				map[i][j] += map[i][j-1];
-				
-			}
-			
-			for(int[] res : map) {
-				System.out.println(Arrays.toString(res));
-			}
-			System.out.println();
-				
-
-		}
+    
+    //이제 각 배열을 순회하면서 더하기만 해주면 된다. => 이건 내일 아침에 다시 도전
 	}
-  }
+
 }
