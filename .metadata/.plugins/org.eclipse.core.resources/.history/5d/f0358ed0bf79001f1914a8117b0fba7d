@@ -116,5 +116,9 @@ public class 등굣길_DP {
         // 6. 결과 출력 (학교까지 갈 수 있는 최단 경로의 수)
         System.out.println("학교까지 갈 수 있는 최단 경로의 수: " + map[n][m]);
 
+        // 디버깅용으로 최종 지도 상태 출력
+        for (int[] row : map) {
+            System.out.println(Arrays.toString(row));
+        }
     }
 }
