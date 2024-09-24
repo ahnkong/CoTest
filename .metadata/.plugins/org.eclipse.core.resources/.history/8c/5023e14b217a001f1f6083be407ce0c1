@@ -83,7 +83,8 @@ public class d240921_스택큐_기능개발 {
 //	 	      }
  	        
 // 	        System.out.println(Arrays.toString(answer));
- 	        System.out.println(que);
+ 	        System.out.println(Arrays.toString(que));
+ 	
 		}
 } 	   	
 // 	   	Stack<Integer> stack = new Stack<>();

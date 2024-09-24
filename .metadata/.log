@@ -10123,3 +10123,2653 @@ java.lang.IllegalStateException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:24:01.817
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:24:01.818
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:24:01.818
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:24:01.819
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:24:04.216
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:24:04.216
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:24:04.216
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:24:04.217
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:24:06.288
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:24:06.288
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:24:06.289
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:24:06.289
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:24:15.319
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:24:15.319
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:24:15.320
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:24:15.320
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:34:23.181
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:34:23.181
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:34:23.182
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:34:23.182
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:35:16.917
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:35:16.917
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:35:16.918
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:35:16.918
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:38:00.810
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:38:00.810
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:38:00.811
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:38:00.811
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:38:34.963
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:38:34.963
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:38:34.964
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:38:34.964
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:41:01.478
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:41:01.479
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:41:01.479
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:41:01.479
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:41:05.511
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:41:05.511
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:41:05.512
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:41:05.512
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:41:07.110
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:41:07.110
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:41:07.111
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:41:07.111
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-09-24 11:41:16.866
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package level2;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class d240921_스택큐_기능개발 {
+	//스택큐로 생각해보기
+	//이번엔 문제를 잘읽고 천천히 생각해보자 + 중간 중간 직관적으로 많이 찍어보자
+ 	public static void main(String[] args) {
+
+ 		
+ 		//1. progresses랑 speeds랑 곱한 값을 temp에 넣어주기
+ 		//케이스 1
+// 		int[] progresses = {95, 90, 99, 99, 80, 99};
+// 		int[] speeds = {1, 1, 1, 1, 1, 1};
+ 		
+ 		//케이스 2
+// 		int[] progresses = {93, 30, 55};
+// 		int[] speeds = {1,30,5};
+
+ 		//케이스 3
+ 		int[] progresses = {90, 90};
+ 		int[] speeds = {10, 9};
+ 		
+//		int[] temp = new int[progresses.length];
+		int[] day = new int[progresses.length];
+ 	   	
+ 	   	for (int i = 0; i < progresses.length; i++) {
+ 	   		int complete = 100-progresses[i];
+ 	   		100 <= complete/speeds[i]) {
+ 	   			day[i] = 
+ 	   		}
+ 	   	 	   		
+ 	   		System.out.println(i +"번째 : " + day[i] );
+ 	   	}
+ 	   	
+ 	   	System.out.println("배포가능날짜 : " + Arrays.toString(day));
+ 	   	System.out.println();
+ 	   	
+ 	   	
+ 	   	//큐 객체 생성
+ 	   	Queue<Integer> que = new LinkedList<>();
+ 	   	// push, peek, poll
+ 	   	
+ 	   	
+ 	   	// 조건을 넣어주면서, cnt를 큐에 담아줘야한다.
+ 	   	int firstDay = day[0];
+ 	   	int cnt = 1; //첫번째 배포 그룹에 포함될 기능 수!
+ 	   	
+ 	   	for (int i = 1; i < day.length; i++) {
+ 	   			if(day[i] <= firstDay) {
+ 	                
+ 	                cnt++;// 앞의 기능이 완료될 때 함께 배포할 수 있으면 카운트 증가
+ 	                System.out.println("cnt : " +cnt);
+ 	   				
+ 	   			} else {
+ 	                // 새 배포가 필요할 경우, 큐에 배포할 기능 수 추가
+ 	                que.add(cnt);
+ 	                System.out.println("현재까지 배포 : " + que);
+ 	                // 새로운 배포 그룹 시작
+ 	                firstDay = day[i];  // 새로운 기준 날짜
+ 	                cnt = 1;  // 새 배포 그룹의 첫 번째 기능
+ 	            }
+ 	        }
+ 	        
+ 	        // 마지막 남은 기능 배포
+ 	        que.add(cnt);
+ 	        System.out.println("최종 배포 : " + que);
+ 	        
+ 	        //결과를 배열로 반환
+ 	        int[] answer = new int[que.size()];
+   	        int index = 0;
+	 	      while (!que.isEmpty()) { // 비면 끝!
+	 	          answer[index++] = que.poll(); //인덱스를 하나씩 증가하면서, 큐에서 값을 하나씩 꺼내서 배열에 저장
+	 	      }
+ 	        
+ 	        System.out.println(Arrays.toString(answer));
+ 	
+		}
+} 	   	
+// 	   	Stack<Integer> stack = new Stack<>();
+// 	   	System.out.println("반복문 다 돌고 나온 후 : " + que);
+ 	   	
+// 	   	for (int i = 0; i < progresses.length; i++) {
+//			int complete = 100-progresses[i];
+//			day[i] = complete/speeds[i];
+//			
+//			System.out.println(i +"번째 : " + day[i] );
+//		}
+// 	   	System.out.println("완성되는 날짜 : " +Arrays.toString(day));
+// 	   	System.out.println();
+// 	   	
+// 	   for (int i = 0; i < day.length; i++) {
+// 		   for (int j = 1; j < day.length; j++) {
+// 			   stack.push(day[i]);
+// 			   cnt++;
+//				if(stack.peek()>= day[j]) {
+//					stack.push(day[j]);
+//					cnt++;
+//	
+//	 	   			System.out.println("Stack : " + stack + " = 완성된 기능 : " + cnt + "개");
+//	 	   			answer[i] = cnt;
+//	 	   			stack.clear();
+//	 	   			System.out.println("stack에 남아있는 값 " + stack);
+//				}else {
+//					stack.push(day[j]);
+//				}
+//				
+// 		   }
+// 		   System.out.println("stack : " + stack);
+// 		   System.out.println("answer : " + Arrays.toString(answer));
+//		}
+//	}
+//}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-09-24 11:41:16.867
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-09-24 11:41:16.868
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-09-24 11:41:17.561
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package level2;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class d240921_스택큐_기능개발 {
+	//스택큐로 생각해보기
+	//이번엔 문제를 잘읽고 천천히 생각해보자 + 중간 중간 직관적으로 많이 찍어보자
+ 	public static void main(String[] args) {
+
+ 		
+ 		//1. progresses랑 speeds랑 곱한 값을 temp에 넣어주기
+ 		//케이스 1
+// 		int[] progresses = {95, 90, 99, 99, 80, 99};
+// 		int[] speeds = {1, 1, 1, 1, 1, 1};
+ 		
+ 		//케이스 2
+// 		int[] progresses = {93, 30, 55};
+// 		int[] speeds = {1,30,5};
+
+ 		//케이스 3
+ 		int[] progresses = {90, 90};
+ 		int[] speeds = {10, 9};
+ 		
+//		int[] temp = new int[progresses.length];
+		int[] day = new int[progresses.length];
+ 	   	
+ 	   	for (int i = 0; i < progresses.length; i++) {
+ 	   		int complete = 100-progresses[i];
+ 	   		100 <= complete/speeds[i])
+ 	   			day[i] = 
+ 	   		}
+ 	   	 	   		
+ 	   		System.out.println(i +"번째 : " + day[i] );
+ 	   	}
+ 	   	
+ 	   	System.out.println("배포가능날짜 : " + Arrays.toString(day));
+ 	   	System.out.println();
+ 	   	
+ 	   	
+ 	   	//큐 객체 생성
+ 	   	Queue<Integer> que = new LinkedList<>();
+ 	   	// push, peek, poll
+ 	   	
+ 	   	
+ 	   	// 조건을 넣어주면서, cnt를 큐에 담아줘야한다.
+ 	   	int firstDay = day[0];
+ 	   	int cnt = 1; //첫번째 배포 그룹에 포함될 기능 수!
+ 	   	
+ 	   	for (int i = 1; i < day.length; i++) {
+ 	   			if(day[i] <= firstDay) {
+ 	                
+ 	                cnt++;// 앞의 기능이 완료될 때 함께 배포할 수 있으면 카운트 증가
+ 	                System.out.println("cnt : " +cnt);
+ 	   				
+ 	   			} else {
+ 	                // 새 배포가 필요할 경우, 큐에 배포할 기능 수 추가
+ 	                que.add(cnt);
+ 	                System.out.println("현재까지 배포 : " + que);
+ 	                // 새로운 배포 그룹 시작
+ 	                firstDay = day[i];  // 새로운 기준 날짜
+ 	                cnt = 1;  // 새 배포 그룹의 첫 번째 기능
+ 	            }
+ 	        }
+ 	        
+ 	        // 마지막 남은 기능 배포
+ 	        que.add(cnt);
+ 	        System.out.println("최종 배포 : " + que);
+ 	        
+ 	        //결과를 배열로 반환
+ 	        int[] answer = new int[que.size()];
+   	        int index = 0;
+	 	      while (!que.isEmpty()) { // 비면 끝!
+	 	          answer[index++] = que.poll(); //인덱스를 하나씩 증가하면서, 큐에서 값을 하나씩 꺼내서 배열에 저장
+	 	      }
+ 	        
+ 	        System.out.println(Arrays.toString(answer));
+ 	
+		}
+} 	   	
+// 	   	Stack<Integer> stack = new Stack<>();
+// 	   	System.out.println("반복문 다 돌고 나온 후 : " + que);
+ 	   	
+// 	   	for (int i = 0; i < progresses.length; i++) {
+//			int complete = 100-progresses[i];
+//			day[i] = complete/speeds[i];
+//			
+//			System.out.println(i +"번째 : " + day[i] );
+//		}
+// 	   	System.out.println("완성되는 날짜 : " +Arrays.toString(day));
+// 	   	System.out.println();
+// 	   	
+// 	   for (int i = 0; i < day.length; i++) {
+// 		   for (int j = 1; j < day.length; j++) {
+// 			   stack.push(day[i]);
+// 			   cnt++;
+//				if(stack.peek()>= day[j]) {
+//					stack.push(day[j]);
+//					cnt++;
+//	
+//	 	   			System.out.println("Stack : " + stack + " = 완성된 기능 : " + cnt + "개");
+//	 	   			answer[i] = cnt;
+//	 	   			stack.clear();
+//	 	   			System.out.println("stack에 남아있는 값 " + stack);
+//				}else {
+//					stack.push(day[j]);
+//				}
+//				
+// 		   }
+// 		   System.out.println("stack : " + stack);
+// 		   System.out.println("answer : " + Arrays.toString(answer));
+//		}
+//	}
+//}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-09-24 11:41:17.562
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-09-24 11:41:17.562
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-09-24 11:41:17.572
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package level2;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class d240921_스택큐_기능개발 {
+	//스택큐로 생각해보기
+	//이번엔 문제를 잘읽고 천천히 생각해보자 + 중간 중간 직관적으로 많이 찍어보자
+ 	public static void main(String[] args) {
+
+ 		
+ 		//1. progresses랑 speeds랑 곱한 값을 temp에 넣어주기
+ 		//케이스 1
+// 		int[] progresses = {95, 90, 99, 99, 80, 99};
+// 		int[] speeds = {1, 1, 1, 1, 1, 1};
+ 		
+ 		//케이스 2
+// 		int[] progresses = {93, 30, 55};
+// 		int[] speeds = {1,30,5};
+
+ 		//케이스 3
+ 		int[] progresses = {90, 90};
+ 		int[] speeds = {10, 9};
+ 		
+//		int[] temp = new int[progresses.length];
+		int[] day = new int[progresses.length];
+ 	   	
+ 	   	for (int i = 0; i < progresses.length; i++) {
+ 	   		int complete = 100-progresses[i];
+ 	   		100 <= complete/speeds[i])
+ 	   			day[i] = 
+ 	   		}
+ 	   	 	   		
+ 	   		System.out.println(i +"번째 : " + day[i] );
+ 	   	}
+ 	   	
+ 	   	System.out.println("배포가능날짜 : " + Arrays.toString(day));
+ 	   	System.out.println();
+ 	   	
+ 	   	
+ 	   	//큐 객체 생성
+ 	   	Queue<Integer> que = new LinkedList<>();
+ 	   	// push, peek, poll
+ 	   	
+ 	   	
+ 	   	// 조건을 넣어주면서, cnt를 큐에 담아줘야한다.
+ 	   	int firstDay = day[0];
+ 	   	int cnt = 1; //첫번째 배포 그룹에 포함될 기능 수!
+ 	   	
+ 	   	for (int i = 1; i < day.length; i++) {
+ 	   			if(day[i] <= firstDay) {
+ 	                
+ 	                cnt++;// 앞의 기능이 완료될 때 함께 배포할 수 있으면 카운트 증가
+ 	                System.out.println("cnt : " +cnt);
+ 	   				
+ 	   			} else {
+ 	                // 새 배포가 필요할 경우, 큐에 배포할 기능 수 추가
+ 	                que.add(cnt);
+ 	                System.out.println("현재까지 배포 : " + que);
+ 	                // 새로운 배포 그룹 시작
+ 	                firstDay = day[i];  // 새로운 기준 날짜
+ 	                cnt = 1;  // 새 배포 그룹의 첫 번째 기능
+ 	            }
+ 	        }
+ 	        
+ 	        // 마지막 남은 기능 배포
+ 	        que.add(cnt);
+ 	        System.out.println("최종 배포 : " + que);
+ 	        
+ 	        //결과를 배열로 반환
+ 	        int[] answer = new int[que.size()];
+   	        int index = 0;
+	 	      while (!que.isEmpty()) { // 비면 끝!
+	 	          answer[index++] = que.poll(); //인덱스를 하나씩 증가하면서, 큐에서 값을 하나씩 꺼내서 배열에 저장
+	 	      }
+ 	        
+ 	        System.out.println(Arrays.toString(answer));
+ 	
+		}
+} 	   	
+// 	   	Stack<Integer> stack = new Stack<>();
+// 	   	System.out.println("반복문 다 돌고 나온 후 : " + que);
+ 	   	
+// 	   	for (int i = 0; i < progresses.length; i++) {
+//			int complete = 100-progresses[i];
+//			day[i] = complete/speeds[i];
+//			
+//			System.out.println(i +"번째 : " + day[i] );
+//		}
+// 	   	System.out.println("완성되는 날짜 : " +Arrays.toString(day));
+// 	   	System.out.println();
+// 	   	
+// 	   for (int i = 0; i < day.length; i++) {
+// 		   for (int j = 1; j < day.length; j++) {
+// 			   stack.push(day[i]);
+// 			   cnt++;
+//				if(stack.peek()>= day[j]) {
+//					stack.push(day[j]);
+//					cnt++;
+//	
+//	 	   			System.out.println("Stack : " + stack + " = 완성된 기능 : " + cnt + "개");
+//	 	   			answer[i] = cnt;
+//	 	   			stack.clear();
+//	 	   			System.out.println("stack에 남아있는 값 " + stack);
+//				}else {
+//					stack.push(day[j]);
+//				}
+//				
+// 		   }
+// 		   System.out.println("stack : " + stack);
+// 		   System.out.println("answer : " + Arrays.toString(answer));
+//		}
+//	}
+//}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2024-09-24 11:41:17.573
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2024-09-24 11:41:17.574
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-09-24 11:41:18.704
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package level2;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class d240921_스택큐_기능개발 {
+	//스택큐로 생각해보기
+	//이번엔 문제를 잘읽고 천천히 생각해보자 + 중간 중간 직관적으로 많이 찍어보자
+ 	public static void main(String[] args) {
+
+ 		
+ 		//1. progresses랑 speeds랑 곱한 값을 temp에 넣어주기
+ 		//케이스 1
+// 		int[] progresses = {95, 90, 99, 99, 80, 99};
+// 		int[] speeds = {1, 1, 1, 1, 1, 1};
+ 		
+ 		//케이스 2
+// 		int[] progresses = {93, 30, 55};
+// 		int[] speeds = {1,30,5};
+
+ 		//케이스 3
+ 		int[] progresses = {90, 90};
+ 		int[] speeds = {10, 9};
+ 		
+//		int[] temp = new int[progresses.length];
+		int[] day = new int[progresses.length];
+ 	   	
+ 	   	for (int i = 0; i < progresses.length; i++) {
+ 	   		int complete = 100-progresses[i];
+ 	   		100 <= complete/speeds[i])
+ 	   		day[i] = 
+ 	   		}
+ 	   	 	   		
+ 	   		System.out.println(i +"번째 : " + day[i] );
+ 	   	}
+ 	   	
+ 	   	System.out.println("배포가능날짜 : " + Arrays.toString(day));
+ 	   	System.out.println();
+ 	   	
+ 	   	
+ 	   	//큐 객체 생성
+ 	   	Queue<Integer> que = new LinkedList<>();
+ 	   	// push, peek, poll
+ 	   	
+ 	   	
+ 	   	// 조건을 넣어주면서, cnt를 큐에 담아줘야한다.
+ 	   	int firstDay = day[0];
+ 	   	int cnt = 1; //첫번째 배포 그룹에 포함될 기능 수!
+ 	   	
+ 	   	for (int i = 1; i < day.length; i++) {
+ 	   			if(day[i] <= firstDay) {
+ 	                
+ 	                cnt++;// 앞의 기능이 완료될 때 함께 배포할 수 있으면 카운트 증가
+ 	                System.out.println("cnt : " +cnt);
+ 	   				
+ 	   			} else {
+ 	                // 새 배포가 필요할 경우, 큐에 배포할 기능 수 추가
+ 	                que.add(cnt);
+ 	                System.out.println("현재까지 배포 : " + que);
+ 	                // 새로운 배포 그룹 시작
+ 	                firstDay = day[i];  // 새로운 기준 날짜
+ 	                cnt = 1;  // 새 배포 그룹의 첫 번째 기능
+ 	            }
+ 	        }
+ 	        
+ 	        // 마지막 남은 기능 배포
+ 	        que.add(cnt);
+ 	        System.out.println("최종 배포 : " + que);
+ 	        
+ 	        //결과를 배열로 반환
+ 	        int[] answer = new int[que.size()];
+   	        int index = 0;
+	 	      while (!que.isEmpty()) { // 비면 끝!
+	 	          answer[index++] = que.poll(); //인덱스를 하나씩 증가하면서, 큐에서 값을 하나씩 꺼내서 배열에 저장
+	 	      }
+ 	        
+ 	        System.out.println(Arrays.toString(answer));
+ 	
+		}
+} 	   	
+// 	   	Stack<Integer> stack = new Stack<>();
+// 	   	System.out.println("반복문 다 돌고 나온 후 : " + que);
+ 	   	
+// 	   	for (int i = 0; i < progresses.length; i++) {
+//			int complete = 100-progresses[i];
+//			day[i] = complete/speeds[i];
+//			
+//			System.out.println(i +"번째 : " + day[i] );
+//		}
+// 	   	System.out.println("완성되는 날짜 : " +Arrays.toString(day));
+// 	   	System.out.println();
+// 	   	
+// 	   for (int i = 0; i < day.length; i++) {
+// 		   for (int j = 1; j < day.length; j++) {
+// 			   stack.push(day[i]);
+// 			   cnt++;
+//				if(stack.peek()>= day[j]) {
+//					stack.push(day[j]);
+//					cnt++;
+//	
+//	 	   			System.out.println("Stack : " + stack + " = 완성된 기능 : " + cnt + "개");
+//	 	   			answer[i] = cnt;
+//	 	   			stack.clear();
+//	 	   			System.out.println("stack에 남아있는 값 " + stack);
+//				}else {
+//					stack.push(day[j]);
+//				}
+//				
+// 		   }
+// 		   System.out.println("stack : " + stack);
+// 		   System.out.println("answer : " + Arrays.toString(answer));
+//		}
+//	}
+//}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-09-24 11:41:18.705
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-09-24 11:41:18.706
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-09-24 11:41:18.718
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package level2;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class d240921_스택큐_기능개발 {
+	//스택큐로 생각해보기
+	//이번엔 문제를 잘읽고 천천히 생각해보자 + 중간 중간 직관적으로 많이 찍어보자
+ 	public static void main(String[] args) {
+
+ 		
+ 		//1. progresses랑 speeds랑 곱한 값을 temp에 넣어주기
+ 		//케이스 1
+// 		int[] progresses = {95, 90, 99, 99, 80, 99};
+// 		int[] speeds = {1, 1, 1, 1, 1, 1};
+ 		
+ 		//케이스 2
+// 		int[] progresses = {93, 30, 55};
+// 		int[] speeds = {1,30,5};
+
+ 		//케이스 3
+ 		int[] progresses = {90, 90};
+ 		int[] speeds = {10, 9};
+ 		
+//		int[] temp = new int[progresses.length];
+		int[] day = new int[progresses.length];
+ 	   	
+ 	   	for (int i = 0; i < progresses.length; i++) {
+ 	   		int complete = 100-progresses[i];
+ 	   		100 <= complete/speeds[i])
+ 	   		day[i] = 
+ 	   		}
+ 	   	 	   		
+ 	   		System.out.println(i +"번째 : " + day[i] );
+ 	   	}
+ 	   	
+ 	   	System.out.println("배포가능날짜 : " + Arrays.toString(day));
+ 	   	System.out.println();
+ 	   	
+ 	   	
+ 	   	//큐 객체 생성
+ 	   	Queue<Integer> que = new LinkedList<>();
+ 	   	// push, peek, poll
+ 	   	
+ 	   	
+ 	   	// 조건을 넣어주면서, cnt를 큐에 담아줘야한다.
+ 	   	int firstDay = day[0];
+ 	   	int cnt = 1; //첫번째 배포 그룹에 포함될 기능 수!
+ 	   	
+ 	   	for (int i = 1; i < day.length; i++) {
+ 	   			if(day[i] <= firstDay) {
+ 	                
+ 	                cnt++;// 앞의 기능이 완료될 때 함께 배포할 수 있으면 카운트 증가
+ 	                System.out.println("cnt : " +cnt);
+ 	   				
+ 	   			} else {
+ 	                // 새 배포가 필요할 경우, 큐에 배포할 기능 수 추가
+ 	                que.add(cnt);
+ 	                System.out.println("현재까지 배포 : " + que);
+ 	                // 새로운 배포 그룹 시작
+ 	                firstDay = day[i];  // 새로운 기준 날짜
+ 	                cnt = 1;  // 새 배포 그룹의 첫 번째 기능
+ 	            }
+ 	        }
+ 	        
+ 	        // 마지막 남은 기능 배포
+ 	        que.add(cnt);
+ 	        System.out.println("최종 배포 : " + que);
+ 	        
+ 	        //결과를 배열로 반환
+ 	        int[] answer = new int[que.size()];
+   	        int index = 0;
+	 	      while (!que.isEmpty()) { // 비면 끝!
+	 	          answer[index++] = que.poll(); //인덱스를 하나씩 증가하면서, 큐에서 값을 하나씩 꺼내서 배열에 저장
+	 	      }
+ 	        
+ 	        System.out.println(Arrays.toString(answer));
+ 	
+		}
+} 	   	
+// 	   	Stack<Integer> stack = new Stack<>();
+// 	   	System.out.println("반복문 다 돌고 나온 후 : " + que);
+ 	   	
+// 	   	for (int i = 0; i < progresses.length; i++) {
+//			int complete = 100-progresses[i];
+//			day[i] = complete/speeds[i];
+//			
+//			System.out.println(i +"번째 : " + day[i] );
+//		}
+// 	   	System.out.println("완성되는 날짜 : " +Arrays.toString(day));
+// 	   	System.out.println();
+// 	   	
+// 	   for (int i = 0; i < day.length; i++) {
+// 		   for (int j = 1; j < day.length; j++) {
+// 			   stack.push(day[i]);
+// 			   cnt++;
+//				if(stack.peek()>= day[j]) {
+//					stack.push(day[j]);
+//					cnt++;
+//	
+//	 	   			System.out.println("Stack : " + stack + " = 완성된 기능 : " + cnt + "개");
+//	 	   			answer[i] = cnt;
+//	 	   			stack.clear();
+//	 	   			System.out.println("stack에 남아있는 값 " + stack);
+//				}else {
+//					stack.push(day[j]);
+//				}
+//				
+// 		   }
+// 		   System.out.println("stack : " + stack);
+// 		   System.out.println("answer : " + Arrays.toString(answer));
+//		}
+//	}
+//}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2024-09-24 11:41:18.719
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2024-09-24 11:41:18.720
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-09-24 11:41:19.679
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package level2;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class d240921_스택큐_기능개발 {
+	//스택큐로 생각해보기
+	//이번엔 문제를 잘읽고 천천히 생각해보자 + 중간 중간 직관적으로 많이 찍어보자
+ 	public static void main(String[] args) {
+
+ 		
+ 		//1. progresses랑 speeds랑 곱한 값을 temp에 넣어주기
+ 		//케이스 1
+// 		int[] progresses = {95, 90, 99, 99, 80, 99};
+// 		int[] speeds = {1, 1, 1, 1, 1, 1};
+ 		
+ 		//케이스 2
+// 		int[] progresses = {93, 30, 55};
+// 		int[] speeds = {1,30,5};
+
+ 		//케이스 3
+ 		int[] progresses = {90, 90};
+ 		int[] speeds = {10, 9};
+ 		
+//		int[] temp = new int[progresses.length];
+		int[] day = new int[progresses.length];
+ 	   	
+ 	   	for (int i = 0; i < progresses.length; i++) {
+ 	   		int complete = 100-progresses[i];
+ 	   		100 <= complete/speeds[i])
+ 	   		day[i] = 
+ 	   		}
+ 	   	 	   		
+ 	   		System.out.println(i +"번째 : " + day[i] );
+ 	   	}
+ 	   	
+ 	   	System.out.println("배포가능날짜 : " + Arrays.toString(day));
+ 	   	System.out.println();
+ 	   	
+ 	   	
+ 	   	//큐 객체 생성
+ 	   	Queue<Integer> que = new LinkedList<>();
+ 	   	// push, peek, poll
+ 	   	
+ 	   	
+ 	   	// 조건을 넣어주면서, cnt를 큐에 담아줘야한다.
+ 	   	int firstDay = day[0];
+ 	   	int cnt = 1; //첫번째 배포 그룹에 포함될 기능 수!
+ 	   	
+ 	   	for (int i = 1; i < day.length; i++) {
+ 	   			if(day[i] <= firstDay) {
+ 	                
+ 	                cnt++;// 앞의 기능이 완료될 때 함께 배포할 수 있으면 카운트 증가
+ 	                System.out.println("cnt : " +cnt);
+ 	   				
+ 	   			} else {
+ 	                // 새 배포가 필요할 경우, 큐에 배포할 기능 수 추가
+ 	                que.add(cnt);
+ 	                System.out.println("현재까지 배포 : " + que);
+ 	                // 새로운 배포 그룹 시작
+ 	                firstDay = day[i];  // 새로운 기준 날짜
+ 	                cnt = 1;  // 새 배포 그룹의 첫 번째 기능
+ 	            }
+ 	        }
+ 	        
+ 	        // 마지막 남은 기능 배포
+ 	        que.add(cnt);
+ 	        System.out.println("최종 배포 : " + que);
+ 	        
+ 	        //결과를 배열로 반환
+ 	        int[] answer = new int[que.size()];
+   	        int index = 0;
+	 	      while (!que.isEmpty()) { // 비면 끝!
+	 	          answer[index++] = que.poll(); //인덱스를 하나씩 증가하면서, 큐에서 값을 하나씩 꺼내서 배열에 저장
+	 	      }
+ 	        
+ 	        System.out.println(Arrays.toString(answer));
+ 	
+		}
+} 	   	
+// 	   	Stack<Integer> stack = new Stack<>();
+// 	   	System.out.println("반복문 다 돌고 나온 후 : " + que);
+ 	   	
+// 	   	for (int i = 0; i < progresses.length; i++) {
+//			int complete = 100-progresses[i];
+//			day[i] = complete/speeds[i];
+//			
+//			System.out.println(i +"번째 : " + day[i] );
+//		}
+// 	   	System.out.println("완성되는 날짜 : " +Arrays.toString(day));
+// 	   	System.out.println();
+// 	   	
+// 	   for (int i = 0; i < day.length; i++) {
+// 		   for (int j = 1; j < day.length; j++) {
+// 			   stack.push(day[i]);
+// 			   cnt++;
+//				if(stack.peek()>= day[j]) {
+//					stack.push(day[j]);
+//					cnt++;
+//	
+//	 	   			System.out.println("Stack : " + stack + " = 완성된 기능 : " + cnt + "개");
+//	 	   			answer[i] = cnt;
+//	 	   			stack.clear();
+//	 	   			System.out.println("stack에 남아있는 값 " + stack);
+//				}else {
+//					stack.push(day[j]);
+//				}
+//				
+// 		   }
+// 		   System.out.println("stack : " + stack);
+// 		   System.out.println("answer : " + Arrays.toString(answer));
+//		}
+//	}
+//}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2024-09-24 11:41:19.680
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2024-09-24 11:41:19.680
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-09-24 11:41:20.473
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package level2;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class d240921_스택큐_기능개발 {
+	//스택큐로 생각해보기
+	//이번엔 문제를 잘읽고 천천히 생각해보자 + 중간 중간 직관적으로 많이 찍어보자
+ 	public static void main(String[] args) {
+
+ 		
+ 		//1. progresses랑 speeds랑 곱한 값을 temp에 넣어주기
+ 		//케이스 1
+// 		int[] progresses = {95, 90, 99, 99, 80, 99};
+// 		int[] speeds = {1, 1, 1, 1, 1, 1};
+ 		
+ 		//케이스 2
+// 		int[] progresses = {93, 30, 55};
+// 		int[] speeds = {1,30,5};
+
+ 		//케이스 3
+ 		int[] progresses = {90, 90};
+ 		int[] speeds = {10, 9};
+ 		
+//		int[] temp = new int[progresses.length];
+		int[] day = new int[progresses.length];
+ 	   	
+ 	   	for (int i = 0; i < progresses.length; i++) {
+ 	   		int complete = 100-progresses[i];
+ 	   		100 <= complete/speeds[i]) {
+ 	   			day[i] = 
+ 	   		}
+ 	   	 	   		
+ 	   		System.out.println(i +"번째 : " + day[i] );
+ 	   	}
+ 	   	
+ 	   	System.out.println("배포가능날짜 : " + Arrays.toString(day));
+ 	   	System.out.println();
+ 	   	
+ 	   	
+ 	   	//큐 객체 생성
+ 	   	Queue<Integer> que = new LinkedList<>();
+ 	   	// push, peek, poll
+ 	   	
+ 	   	
+ 	   	// 조건을 넣어주면서, cnt를 큐에 담아줘야한다.
+ 	   	int firstDay = day[0];
+ 	   	int cnt = 1; //첫번째 배포 그룹에 포함될 기능 수!
+ 	   	
+ 	   	for (int i = 1; i < day.length; i++) {
+ 	   			if(day[i] <= firstDay) {
+ 	                
+ 	                cnt++;// 앞의 기능이 완료될 때 함께 배포할 수 있으면 카운트 증가
+ 	                System.out.println("cnt : " +cnt);
+ 	   				
+ 	   			} else {
+ 	                // 새 배포가 필요할 경우, 큐에 배포할 기능 수 추가
+ 	                que.add(cnt);
+ 	                System.out.println("현재까지 배포 : " + que);
+ 	                // 새로운 배포 그룹 시작
+ 	                firstDay = day[i];  // 새로운 기준 날짜
+ 	                cnt = 1;  // 새 배포 그룹의 첫 번째 기능
+ 	            }
+ 	        }
+ 	        
+ 	        // 마지막 남은 기능 배포
+ 	        que.add(cnt);
+ 	        System.out.println("최종 배포 : " + que);
+ 	        
+ 	        //결과를 배열로 반환
+ 	        int[] answer = new int[que.size()];
+   	        int index = 0;
+	 	      while (!que.isEmpty()) { // 비면 끝!
+	 	          answer[index++] = que.poll(); //인덱스를 하나씩 증가하면서, 큐에서 값을 하나씩 꺼내서 배열에 저장
+	 	      }
+ 	        
+ 	        System.out.println(Arrays.toString(answer));
+ 	
+		}
+} 	   	
+// 	   	Stack<Integer> stack = new Stack<>();
+// 	   	System.out.println("반복문 다 돌고 나온 후 : " + que);
+ 	   	
+// 	   	for (int i = 0; i < progresses.length; i++) {
+//			int complete = 100-progresses[i];
+//			day[i] = complete/speeds[i];
+//			
+//			System.out.println(i +"번째 : " + day[i] );
+//		}
+// 	   	System.out.println("완성되는 날짜 : " +Arrays.toString(day));
+// 	   	System.out.println();
+// 	   	
+// 	   for (int i = 0; i < day.length; i++) {
+// 		   for (int j = 1; j < day.length; j++) {
+// 			   stack.push(day[i]);
+// 			   cnt++;
+//				if(stack.peek()>= day[j]) {
+//					stack.push(day[j]);
+//					cnt++;
+//	
+//	 	   			System.out.println("Stack : " + stack + " = 완성된 기능 : " + cnt + "개");
+//	 	   			answer[i] = cnt;
+//	 	   			stack.clear();
+//	 	   			System.out.println("stack에 남아있는 값 " + stack);
+//				}else {
+//					stack.push(day[j]);
+//				}
+//				
+// 		   }
+// 		   System.out.println("stack : " + stack);
+// 		   System.out.println("answer : " + Arrays.toString(answer));
+//		}
+//	}
+//}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-09-24 11:41:20.474
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-09-24 11:41:20.475
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:43:20.680
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:43:20.680
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:43:20.681
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:43:20.681
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:53:30.541
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:53:30.541
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:53:30.542
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:53:30.542
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:56:31.167
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:56:31.167
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 11:56:31.167
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 11:56:31.168
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 12:00:47.888
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 11 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 12:00:47.888
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.containsVariable(JavaDebugHover.java:620)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$2(JavaDebugHover.java:639)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:604)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-09-24 12:00:47.889
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1362)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-09-24 12:00:47.889
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1365)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.updateVariables(JDIStackFrame.java:765)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables0(JDIStackFrame.java:395)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getVariables(JDIStackFrame.java:307)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.findVariable(JDIStackFrame.java:928)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findLocalVariable(JavaDebugHover.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:469)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)

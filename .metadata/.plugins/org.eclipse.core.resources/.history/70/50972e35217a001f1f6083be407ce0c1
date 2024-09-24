@@ -77,13 +77,13 @@ public class d240921_스택큐_기능개발 {
  	        
  	        //결과를 배열로 반환
  	        int[] answer = new int[que.size()];
-//   	        int index = 0;
-//	 	      while (!que.isEmpty()) { // 비면 끝!
-//	 	          answer[index++] = que.poll(); //인덱스를 하나씩 증가하면서, 큐에서 값을 하나씩 꺼내서 배열에 저장
-//	 	      }
+   	        int index = 0;
+	 	      while (!que.isEmpty()) { // 비면 끝!
+	 	          answer[index++] = que.poll(); //인덱스를 하나씩 증가하면서, 큐에서 값을 하나씩 꺼내서 배열에 저장
+	 	      }
  	        
-// 	        System.out.println(Arrays.toString(answer));
- 	        System.out.println(que);
+ 	        System.out.println(Arrays.toString(answer));
+ 	
 		}
 } 	   	
 // 	   	Stack<Integer> stack = new Stack<>();

@@ -28,16 +28,8 @@ public class d240921_스택큐_기능개발 {
  	   	
  	   	for (int i = 0; i < progresses.length; i++) {
  	   		int complete = 100-progresses[i];
- 	   		
- 	   		//1)
-	   		if(complete%speeds[i] != 0) {
- 	   			day[i] = (complete/speeds[i])+1;
- 	   		
- 	   		}else{
-                day[i] = (complete/speeds[i]);
-            }  
- 	   		//2)남은 일수를 올림하지 않고 계산 (정수 나눗셈 사용)
-// 	   		day[i] = (complete + speeds[i] - 1) / speeds[i];
+ 	   	  // 남은 일수를 올림하지 않고 계산 (정수 나눗셈 사용)
+ 	   		day[i] = (complete + speeds[i] - 1) / speeds[i];
  	   	 	   		
  	   		System.out.println(i +"번째 : " + day[i] );
  	   	}
@@ -77,13 +69,13 @@ public class d240921_스택큐_기능개발 {
  	        
  	        //결과를 배열로 반환
  	        int[] answer = new int[que.size()];
-//   	        int index = 0;
-//	 	      while (!que.isEmpty()) { // 비면 끝!
-//	 	          answer[index++] = que.poll(); //인덱스를 하나씩 증가하면서, 큐에서 값을 하나씩 꺼내서 배열에 저장
-//	 	      }
+   	        int index = 0;
+	 	      while (!que.isEmpty()) { // 비면 끝!
+	 	          answer[index++] = que.poll(); //인덱스를 하나씩 증가하면서, 큐에서 값을 하나씩 꺼내서 배열에 저장
+	 	      }
  	        
-// 	        System.out.println(Arrays.toString(answer));
- 	        System.out.println(que);
+ 	        System.out.println(Arrays.toString(answer));
+ 	
 		}
 } 	   	
 // 	   	Stack<Integer> stack = new Stack<>();
