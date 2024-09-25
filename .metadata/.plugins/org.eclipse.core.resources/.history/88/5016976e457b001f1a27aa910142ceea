@@ -85,4 +85,37 @@ public class d240921_스택큐_기능개발 {
  	        System.out.println(que);
 		}
 } 	   	
-
+// 	   	Stack<Integer> stack = new Stack<>();
+// 	   	System.out.println("반복문 다 돌고 나온 후 : " + que);
+ 	   	
+// 	   	for (int i = 0; i < progresses.length; i++) {
+//			int complete = 100-progresses[i];
+//			day[i] = complete/speeds[i];
+//			
+//			System.out.println(i +"번째 : " + day[i] );
+//		}
+// 	   	System.out.println("완성되는 날짜 : " +Arrays.toString(day));
+// 	   	System.out.println();
+// 	   	
+// 	   for (int i = 0; i < day.length; i++) {
+// 		   for (int j = 1; j < day.length; j++) {
+// 			   stack.push(day[i]);
+// 			   cnt++;
+//				if(stack.peek()>= day[j]) {
+//					stack.push(day[j]);
+//					cnt++;
+//	
+//	 	   			System.out.println("Stack : " + stack + " = 완성된 기능 : " + cnt + "개");
+//	 	   			answer[i] = cnt;
+//	 	   			stack.clear();
+//	 	   			System.out.println("stack에 남아있는 값 " + stack);
+//				}else {
+//					stack.push(day[j]);
+//				}
+//				
+// 		   }
+// 		   System.out.println("stack : " + stack);
+// 		   System.out.println("answer : " + Arrays.toString(answer));
+//		}
+//	}
+//}
