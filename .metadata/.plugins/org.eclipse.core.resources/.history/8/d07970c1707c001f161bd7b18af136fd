@@ -57,11 +57,11 @@ public class d240926_힙_더맵게 {
 			System.out.println("second는 : " + second +"  |  second 제거 확인: " +dishes);
 			
 			//새로운 스코빌 지수 계산
-			int newScoville = first + second * 2;
-			System.out.println("추가된 스코빌 지수 : " + newScoville);
+			int NewScoville = first + second * 2;
+			System.out.println("추가된 스코빌 지수 : " + NewScoville);
 			//계산 후 first랑, second제거
 			
-			dishes.add(newScoville);
+			dishes.add(NewScoville);
 			//잘 추가 됐나 확인
 			System.out.println(dishes);
 			cnt++;
