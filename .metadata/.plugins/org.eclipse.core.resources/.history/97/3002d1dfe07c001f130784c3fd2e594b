@@ -11,12 +11,8 @@ public class d240927_내적 {
  
  * */
 	public static void main(String[] args) {
-		//케이스1
-//		int[] a = {1,2,3,4};
-//		int[] b = {-3,-1,0,2};
-		//케이스2
-		int[] a = {-1,0,1};
-		int[] b = {1,0,-1};
+		int[] a = {1,2,3,4};
+		int[] b = {-3,-1,0,2};
 		int answer = 0;
 		int[] temp = new int[a.length];
 		// 두 배열 요소의 접근 입니다.
