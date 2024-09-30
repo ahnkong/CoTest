@@ -39,16 +39,15 @@ public class D240930_의상 {
 		// 옷은 입을 수도 있고, 안입을수도 있기 때문에, values
 		for (int count : hashMap.values()) {
 			
-		    System.out.println("category count: " + count);
-		    
+		    System.out.println("category count: " + co		    
 		    answer *= (count + 1); // 해당 종류를 입지 않는 경우 포함
 		    
 		    System.out.println("경우의 수, answer = " + answer);
 		    System.out.println();
 		}
         
-        // 아무것도 입지 않는 경우를 빼주는거!!!!
-        answer = answer -1 ;
+        // 아무것도 입지 않는 경우는 제외
+        answer -= 1;
 		
 		System.out.println(answer);
 	}

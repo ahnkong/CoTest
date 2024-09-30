@@ -33,22 +33,15 @@ public class D240930_의상 {
         }
 		System.out.println("현재 담겨있는 것 " + hashMap);
 		
-		System.out.println();
 		
-        // 서로 다른 의상 종류를 선택할 수 있는 경우의 수 계산
-		// 옷은 입을 수도 있고, 안입을수도 있기 때문에, values
-		for (int count : hashMap.values()) {
-			
-		    System.out.println("category count: " + count);
-		    
-		    answer *= (count + 1); // 해당 종류를 입지 않는 경우 포함
-		    
-		    System.out.println("경우의 수, answer = " + answer);
-		    System.out.println();
-		}
+        // 모든 경우의 수를 계산
+        for (int count : hashMap.values()) {
+            answer *= (count + 1); // 해당 종류를 입지 않는 경우 포함
+        }
         
-        // 아무것도 입지 않는 경우를 빼주는거!!!!
-        answer = answer -1 ;
+        
+        // 아무것도 입지 않는 경우는 제외
+        answer -= 1;
 		
 		System.out.println(answer);
 	}
