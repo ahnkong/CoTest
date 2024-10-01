@@ -49,25 +49,17 @@ public class D240930_의상 {
         int onlyOne = 0;
         int mix = 1; // 0으로 곱해버리니까 자꾸 0이 나와버림..그래서 1로 수정!
         // 첫 번째 값과 두 번째 값을 곱함
-//        for (int i = 0; i < valueList.size(); i++) {
-//        	temp1 = valueList.get(i);
-//        	System.out.println(i + "번째: " + valueList.get(i));
-//        	onlyOne += temp1;
-//        	if(valueList.size() > 1 ) {
-//	        	mix *= temp1+1;
-//	        	System.out.println("한개씩만 입었을때 : " + onlyOne + "  |    섞어 입었을 때 : " + mix);
-//        	}
-//        	else {
-//        		mix = 0;
-//        	}
-//        }	
         for (int i = 0; i < valueList.size(); i++) {
-            temp1 = valueList.get(i);
-            onlyOne += temp1;
-            mix *= (temp1 + 1);  // 의상 개수 + 1 (고르지 않는 경우 포함)
+        	
+        	temp1 = valueList.get(i);
+        	System.out.println(i + "번째: " + valueList.get(i));
+        	onlyOne += temp1;
+        	mix = mix * temp1;
+        	System.out.println("한개씩만 입었을때 : " + onlyOne + "  |    섞어 입었을 때 : " + mix);
         }
-        answer = mix - 1;  // 아무 의상도 입지 않는 경우를 제외
-        System.out.println(" [ 총 누적 경우의 수 ] " + answer);
+        answer = onlyOne + mix;
+        System.out.println(" [ 총 누적 경우의 수 ] " + answer );
+		System.out.println(answer);
 	}
 }
 		
