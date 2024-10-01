@@ -1,7 +1,10 @@
 package level2;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class D240930_의상 {
@@ -21,8 +24,7 @@ public class D240930_의상 {
 //		String[][] clothes = {{"crow_mask", "face"}, {"blue_sunglasses", "face"}, {"smoky_makeup", "face"}};
 		
 		 
-//		int answer = 0;
-		int answer = 1; //0으로 시작하면, 곱이 다 0이 되기 때문에 1로
+		int answer = 0; //0으로 시작하면, 곱이 다 0이 되기 때문에 1로
 		
 		Map<String, Integer> hashMap = new HashMap<>();
 		for(int i = 0; i < clothes.length; i++) {
@@ -35,21 +37,28 @@ public class D240930_의상 {
 		
 		System.out.println();
 		
-        // 서로 다른 의상 종류를 선택할 수 있는 경우의 수 계산
-		// 옷은 입을 수도 있고, 안입을수도 있기 때문에, values
-		for (int count : hashMap.values()) {
-			
-		    System.out.println("category count: " + count);
-		    
-		    answer *= (count + 1); // 해당 종류를 입지 않는 경우 포함
-		    
-		    System.out.println("경우의 수, answer = " + answer);
-		    System.out.println();
-		}
+        // HashMap의 value 값들만 가져오기
+        Collection<Integer> values = hashMap.values(); // 모든 value를 가져옴
         
-        // 아무것도 입지 않는 경우를 빼주는거!!!!
-        answer = answer -1 ;
-		
+        // value 리스트로 변환
+        List<Integer> valueList = new ArrayList<>(values);
+        System.out.println("valueList는 : " + valueList);
+        
+        
+        int temp1 = 0;
+        int onlyOne = 0;
+        int mix = 1; // 0으로 곱해버리니까 자꾸 0이 나와버림..그래서 1로 수정!
+        // 첫 번째 값과 두 번째 값을 곱함
+        for (int i = 0; i < valueList.size(); i++) {
+        	
+        	temp1 = valueList.get(i);
+        	System.out.println("i번째: " + valueList.get(i));
+        	onlyOne += temp1;
+        	mix *= temp1;
+        	System.out.println("한개씩만 입었을때 : " + onlyOne + "  |    섞어 입었을 때 : " + mix);
+        }
+        answer = onlyOne + mix;
+        System.out.println(" [ 총 누적 경우의 수 ] " + answer );
 		System.out.println(answer);
 	}
 }
