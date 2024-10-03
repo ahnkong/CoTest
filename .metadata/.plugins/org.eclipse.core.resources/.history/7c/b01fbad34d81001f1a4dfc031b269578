@@ -1,0 +1,33 @@
+package level2;
+
+
+public class d241003_숫자의표현 {
+	public static void main(String[] args) {
+		int answer = 0;
+		int n = 15;
+		int temp = 0;
+		int cnt = 0; 
+		
+		int midNum = 0;
+		if(n % 2 != 0) {
+			midNum = n/2 +1;
+		}else {
+			midNum = n/2;
+		}
+		
+		System.out.println("셈의 기준이 되는 값 " + midNum);
+		
+		
+		//이거를 담아줄 변수하나를 만들어서 i+1씩 했을때의 누적합이 15가 되면  cnt를 하나 더해줄거야!
+		for (int i = 1; i <= midNum; i--) {
+			for(int j = 1 ; i <= midNum; j++)
+				temp = temp + midNum-i*1 + (i-j);
+				System.out.println("temp : " + temp);
+				if(temp == 15) {
+					cnt++;
+					temp = 0;//temp 0으로 초기화
+			}
+				System.out.println(cnt);			
+		}
+	}
+}

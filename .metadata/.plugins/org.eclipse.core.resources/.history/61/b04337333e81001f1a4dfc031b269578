@@ -1,0 +1,17 @@
+package level2;
+
+import java.util.Iterator;
+
+public class d241003_숫자의표현 {
+	public static void main(String[] args) {
+		int answer = 0;
+		int n = 15;
+
+		int midNum = 0;
+		if(n % 2 != 0) {
+			midNum = n/2 +1;
+		}
+		System.out.println("셈의 기준이 되는 값 " + midNum);
+		
+	}
+}

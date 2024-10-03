@@ -1,5 +1,5 @@
 package level1;
-
+//약수는 n을 나누었을때, 나머지가 0인 것을 의미한다!
 public class d241001_약수의합 {
 	public static void main(String[] args) {
 		int n = 12;
