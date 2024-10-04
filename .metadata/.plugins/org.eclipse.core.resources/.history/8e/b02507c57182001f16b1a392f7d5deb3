@@ -51,11 +51,6 @@ public class hash연습 {
 		/*
 		 3. Key가 존재하지 않을 때 기본값 설정 (getOrDefault 메서드 사용)
 			키가 존재하지 않을 경우 기본값을 반환하려면 getOrDefault 메서드를 사용할 수 있습니다.
-			
-			문제는 map.getOrDefault(runners, 0)을 사용하고 있지만, 
-			그 결과를 맵에 다시 넣지 않기 때문입니다. 
-			getOrDefault는 값을 반환만 할 뿐, 해당 키가 존재하지 않으면 값을 추가하지 않습니다. 
-			그래서 map.get(runners)로 바로 값을 가져오면 null을 반환하는 상황이 발생하는 것입니다.
 		 */
 		
 		int orangeValue = hash.getOrDefault("orange", 0); 

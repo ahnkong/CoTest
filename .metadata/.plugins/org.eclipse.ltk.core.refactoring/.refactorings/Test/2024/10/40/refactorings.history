@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;level1.d241005_완주하지못한선수&apos; to &apos;d241005_hash_완주하지못한선수&apos;&#x0D;&#x0A;- Original project: &apos;Test&apos;&#x0D;&#x0A;- Original element: &apos;level1.d241005_완주하지못한선수&apos;&#x0D;&#x0A;- Renamed element: &apos;level1.d241005_hash_완주하지못한선수&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;d241005_완주하지못한선수&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;level1{d241005_완주하지못한선수.java[d241005_완주하지못한선수" matchStrategy="1" name="d241005_hash_완주하지못한선수" patterns="*" qualified="true" references="true" similarDeclarations="false" stamp="1728060428695" textual="false" version="1.0"/>
+</session>
