@@ -37,23 +37,30 @@ public class d241003_숫자의표현 {
 		
 		int left = 0;
 		int right = 0;
-		//for (초기화; 조건식; 반복 후 실행식) { ... }
-		for ( left = 1, right = 1, sum = 1; left <= n/2+1;) {
-			//투포인터 제어
-			if( sum < n) {
-				right++;
-				sum += right;
-			} else if ( sum > n) {
-				sum -= left;
-				left++;
-			} else {
-				System.out.println("연속된 자연수 구간: " + left + " ~ " + right);
-				cnt++;
-				sum -= left; // left거 뺴고,
-				left++; // 포인터 이동
-			}
+		// for (초기화; 조건식; 반복 후 실행식) { ... }
+		for (left = 1, right = 1, sum = 1; left <= n;) {
+		    // 중간 상태 출력 (현재 left, right, sum 출력)
+		    System.out.println("left: " + left + ", right: " + right + ", sum: " + sum);
+		    
+		    // 투 포인터 제어
+		    if (sum < n) {
+		        right++;
+		        sum += right;
+		        System.out.println("sum < n, right 증가: right = " + right + ", sum = " + sum);
+		    } else if (sum > n) {
+		        sum -= left;
+		        left++;
+		        System.out.println("sum > n, left 증가: left = " + left + ", sum = " + sum);
+		    } else {
+		        cnt++;
+		        sum -= left;
+		        left++;
+		        System.out.println("sum == n, cnt 증가: cnt = " + cnt + ", left = " + left + ", sum = " + sum);
+		    }
 		}
 		answer = cnt + 1;
 		System.out.println("조건 만족 : " + answer);
-	}	
-}	
+	}
+}
+		
+		

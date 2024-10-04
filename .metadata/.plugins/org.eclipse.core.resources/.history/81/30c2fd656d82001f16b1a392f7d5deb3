@@ -1,0 +1,51 @@
+package algorithm;
+
+import java.util.HashMap;
+import java.util.Iterator;
+
+public class hash연습 {
+	public static void main(String[] args) {
+		/*
+		1. HashMap에 데이터를 추가할 때는 put 메서드를 사용합니다. 
+		이는 특정 키에 값을 추가하거나, 이미 해당 키가 존재하면 값을 업데이트합니다.
+		*/
+		
+//		
+//		//hashMAp의 선언(String:Integer)
+//		
+//		 HashMap<String, Integer> map = new HashMap<>();
+//		 
+//		 //값 추가(키 : "apple", 값 : 1)
+//		 map.put("apple", 1);
+//
+//		 //값 추가(키 : "banana", 값 : 2)
+//		 map.put("banana", 2);
+//		 
+//		 //값 업데이트 (키가 존재하면 새로운 값으로 대체)
+//		 map.put("apple", 3);
+//		 
+//		 System.out.println(map);
+		
+		
+		/*
+		 2. HashMap에서 값 가져오기 (get 메서드 사용)
+			HashMap에서 특정 키에 대응하는 값을 가져오려면 get 메서드를 사용합니다. 
+			키가 존재하지 않으면 null을 반환합니다. 
+		 */
+		
+		HashMap<String, Integer> hash = new HashMap<>();
+		
+		hash.put("apple", 1);
+		hash.put("banana", 2);
+		
+		//값가져오기
+		hash.get("apple"); // apple 키의 값가져와!
+		System.out.println(hash.get("apple"));
+		int appleValue = hash.get("apple");
+		
+		for (int i = 0; i < hash.size(); i++) {
+			int temp = hash.get(hash);
+			System.out.println(i + "일때 : " );
+		}
+	}
+}

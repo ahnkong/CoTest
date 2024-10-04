@@ -1,0 +1,25 @@
+package algorithm;
+
+import java.util.HashMap;
+
+public class hash연습 {
+	public static void main(String[] args) {
+		
+		//hashMAp의 선언(String:Integer)
+		
+		 HashMap<String, Integer> map = new HashMap<>();
+		 
+		 //값 추가(키 : "apple", 값 : 1)
+		 map.put("apple", 1);
+
+		 //값 추가(키 : "banana", 값 : 2)
+		 map.put("banana", 2);
+		 
+		 
+		 //값 업데이트 (키가 존재하면 새로운 값으로 대체)
+		 map.put("apple", 3);
+		 
+		 System.out.println(map);
+		 
+	}
+}
