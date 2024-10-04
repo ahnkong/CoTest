@@ -50,10 +50,8 @@ public class d241003_숫자의표현 {
 				cnt++;
 				sum -= left;
 				left++;
-				
 			}
-			answer = cnt + 1;
-			System.out.println("조건 만족 : " + answer);
+			System.out.println("조건 만족 : " + cnt+1);
 		}
 	}	
 }	

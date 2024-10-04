@@ -46,10 +46,8 @@ public class D240930_의상 {
         
         
         int temp1 = 0;
-//      int onlyOne = 0;
-        int mix = 1; // 0으로 곱해버리니까 자꾸 0이 나와버림..그래서 1로 수정!
-        
-        
+        int onlyOne = 0;
+        int mix = 0; // 0으로 곱해버리니까 자꾸 0이 나와버림..그래서 1로 수정!
         // 첫 번째 값과 두 번째 값을 곱함
 //        for (int i = 0; i < valueList.size(); i++) {
 //        	temp1 = valueList.get(i);
@@ -63,12 +61,11 @@ public class D240930_의상 {
 //        		mix = 0;
 //        	}
 //        }	
-        
         for (int i = 0; i < valueList.size(); i++) {
             temp1 = valueList.get(i);
+            onlyOne += temp1;
             mix *= (temp1 + 1);  // 의상 개수 + 1 (고르지 않는 경우 포함)
         }
-        
         answer = mix - 1;  // 아무 의상도 입지 않는 경우를 제외
         System.out.println(" [ 총 누적 경우의 수 ] " + answer);
 	}

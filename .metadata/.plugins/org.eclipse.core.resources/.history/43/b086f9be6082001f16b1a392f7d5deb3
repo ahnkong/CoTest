@@ -48,12 +48,8 @@ public class d241003_숫자의표현 {
 			} else {
 				System.out.println("연속된 자연수 구간 : " + left + " ~ " + right );
 				cnt++;
-				sum -= left;
-				left++;
-				
 			}
-			answer = cnt + 1;
-			System.out.println("조건 만족 : " + answer);
+			System.out.println("조건 만족 : " + cnt);
 		}
 	}	
 }	

@@ -36,9 +36,10 @@ public class d241003_숫자의표현 {
 // 만약 포인터 사이값의 합이 목표값보다 작으면, 오른쪽 포인터를 한칸 이동!
 		
 		int left = 0;
-		int right = 0;
+		int right = 1;
 		//for (초기화; 조건식; 반복 후 실행식) { ... }
-		for ( left = 1, right = 1, sum = 1; left <= n/2+1;) {
+		for ( left = 1, right = 1 ; left <= n/2+1;) {
+			System.out.println(left);
 			if( sum < n) {
 				right++;
 				sum += right;
@@ -48,12 +49,8 @@ public class d241003_숫자의표현 {
 			} else {
 				System.out.println("연속된 자연수 구간 : " + left + " ~ " + right );
 				cnt++;
-				sum -= left;
-				left++;
-				
 			}
-			answer = cnt + 1;
-			System.out.println("조건 만족 : " + answer);
+			System.out.println("조건 만족 : " + cnt);
 		}
 	}	
 }	

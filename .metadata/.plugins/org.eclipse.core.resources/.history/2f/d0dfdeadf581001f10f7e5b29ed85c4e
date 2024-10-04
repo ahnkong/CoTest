@@ -46,7 +46,7 @@ public class D240930_의상 {
         
         
         int temp1 = 0;
-//      int onlyOne = 0;
+        int onlyOne = 0;
         int mix = 1; // 0으로 곱해버리니까 자꾸 0이 나와버림..그래서 1로 수정!
         
         
