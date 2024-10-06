@@ -61,8 +61,7 @@ public class d241003_푸드파이터 {
 		}
 
 		String blue = new StringBuilder(red).reverse().toString();
-		String answer = red + water + blue; // 문자열은 오는 순서대로 붙으니까!
-
+		String right = new StringBuilder(left).reverse().toString();
 		System.out.println(answer);
 //		System.out.println("최종 답 : " + answer);
 	}

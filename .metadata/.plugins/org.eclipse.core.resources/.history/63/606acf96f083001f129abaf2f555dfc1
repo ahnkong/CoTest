@@ -9,10 +9,11 @@ public class d241003_푸드파이터 {
 		int[] food = {1, 7, 1, 2};
 		
 		String red = "";
-//		String blue = "";
+		String blue = "";
 		
 		Character water = '0';
 		
+		String answer = red + water + blue; // 문자열은 오는 순서대로 붙으니까!
 		
 		//이걸 합해줄거야! right + water + left이렇게 가져오면 되는거
 		// 문자열의 합 말고, 배열을 하나 더 만들어줘서, arraylist로 만들고,
@@ -59,11 +60,7 @@ public class d241003_푸드파이터 {
                 System.out.println();
             }    
 		}
-
-		String blue = new StringBuilder(red).reverse().toString();
-		String answer = red + water + blue; // 문자열은 오는 순서대로 붙으니까!
-
-		System.out.println(answer);
+		System.out.println(red+water);
 //		System.out.println("최종 답 : " + answer);
 	}
 }
