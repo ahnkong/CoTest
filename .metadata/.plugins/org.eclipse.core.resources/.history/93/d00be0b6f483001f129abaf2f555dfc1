@@ -1,6 +1,7 @@
 package level2;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class d241003_푸드파이터 {
 	public static void main(String[] args) {
@@ -47,21 +48,20 @@ public class d241003_푸드파이터 {
 		
 		int[] half = new int[food.length];
 		System.out.println("food는 : "+ Arrays.toString(food));
-		
 		for (int i = 0; i < food.length; i++) {
             half[i] = food[i]/2;  // 음식의 절반 계산    
 		}    
 		System.out.println("half는 : " + Arrays.toString(half));
-		
             // 숫자를 half 번 만큼 좌측 문자열에 더해줌
 	    for (int i = 0; i < half.length; i++) {
-	    	for (int j = 0; j < half[i]; j++) {
-		    	if(half[i]>=1) {
-			        red += i;
+	    	for (int j = 0; i < half[i]; j++) {
+		    	if(half[j]>0) {
+			        red += j;
 			        System.out.println("red코너 : " + red);
+			        System.out.println();
 		    	}
 	    	}
-	    }
+
 		String blue = new StringBuilder(red).reverse().toString();
 		String answer = red + water + blue; // 문자열은 오는 순서대로 붙으니까!
 
