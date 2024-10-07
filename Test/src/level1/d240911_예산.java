@@ -1,5 +1,7 @@
 package level1;
 
+import java.util.Arrays;
+
 /*
  * 전체 예산 정해져있음.
  * 최대한 많은 부서에게 물품을 구매해주려고 함.
@@ -9,38 +11,31 @@ package level1;
  * */
 public class d240911_예산 {
 	public static void main(String[] args) {
-//		int[] d = {1, 3, 2, 5, 4};
+//		int[] d = { 1, 3, 2, 5, 4 };
 //		int budget = 9;
 
-//		int[] d = {2,2,3,3};
-//		long budget = 10;
-		
-		int[] d = {1,1,1,1,1};
-		long budget = 10;
-		
-		
-		int answer = 0;
-		int temp = 0; 
-		int cnt = 0;
-		
-		
-			for(int i = 0; i < d.length ; i++) {
-				temp += d[i];
-				cnt++;
-				System.out.println(i+1 + " 번째 : " + temp + ", cnt는 " + cnt + "번");
-				if(temp == budget) {
-					answer = cnt;
-					System.out.println("나 if" +answer);
 
-				} else if(temp > budget) {
-					answer = cnt-1;
-					System.out.println("나 else if" + answer);
-					break;
-				}else {
-					answer = cnt;
-				}
+		int[] d = {2,2,3,3};
+		long budget = 10;
+
+//		int[] d = {1,1,1,1,1};
+//		long budget = 10;
+		Arrays.sort(d);
+		System.out.println(Arrays.toString(d));
+
+		int answer = 0;
+		int sum = 0;
+		int cnt = 0;
+
+		for (int i = 0; i < d.length; i++) {
+			sum += d[i];
+			if(sum > budget) {//이 상황이면 종료, 그전에는 계속 돌면서
+				break;
 			}
-		System.out.println(answer);
+			cnt++;
+			
+			
+		}
+		System.out.println(cnt);
 	}
-	
 }
