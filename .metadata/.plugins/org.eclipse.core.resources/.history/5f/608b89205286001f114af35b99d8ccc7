@@ -20,10 +20,7 @@ public class d241009_카드뭉치 {
     	deck1.add(card);
     	System.out.println("deck1 입니다. " + deck1);
     }
-    
     System.out.println("------------------");
-    
-    
     ArrayList<String> deck2 = new ArrayList<>();
     for( String card : cards2 ) {
     	deck2.add(card);
@@ -33,6 +30,7 @@ public class d241009_카드뭉치 {
 	
     System.out.println("------------------");
 	for(String word : goal) {
+		System.out.println("goal은 : " +Arrays.toString(goal));
 		if(!deck1.isEmpty() && deck1.get(0).equals(word)) { // 덱스1에서 word 탐색
 			System.out.println("deck1의 삭제 과정 " + deck1);
 			deck1.remove(0); 

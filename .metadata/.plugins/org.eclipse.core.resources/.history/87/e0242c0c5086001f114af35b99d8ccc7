@@ -1,0 +1,30 @@
+package level1;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class d241009_카드뭉치 {
+	public static void main(String[] args) {
+		
+	String[] cards1 = {"i", "drink", "water"};
+	String[] cards2 = {"want", "to"};
+	String[] goal = {"i", "want", "to", "drink", "water"};
+	boolean res = true;
+	
+	ArrayList<String> deck1 = new ArrayList<>(Arrays.asList(cards1));
+	ArrayList<String> deck2 = new ArrayList<>(Arrays.asList(cards2));
+
+	
+	for(String word : goal) {
+		if(!deck1.isEmpty() && deck1.get(0).equals(word)) { // 덱스1에서 word 탐색
+			deck1.remove(0); 
+		} else if(!deck2.isEmpty() && deck2.get(0).equals(word)) { // 덱스2에서 word탐색
+			deck2.remove(0);
+		} else {
+			res = false; // 두덱에서 현재 word(단어)를 찾을 수 없으면, false반환!
+		}
+
+		System.out.println(res);
+		}
+	}
+}

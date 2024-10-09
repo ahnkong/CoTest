@@ -20,10 +20,7 @@ public class d241009_카드뭉치 {
     	deck1.add(card);
     	System.out.println("deck1 입니다. " + deck1);
     }
-    
     System.out.println("------------------");
-    
-    
     ArrayList<String> deck2 = new ArrayList<>();
     for( String card : cards2 ) {
     	deck2.add(card);
