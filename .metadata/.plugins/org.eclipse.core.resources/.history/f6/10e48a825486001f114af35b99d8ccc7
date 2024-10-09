@@ -36,22 +36,20 @@ public class d241009_카드뭉치 {
     //goal배열의 값을 deck1, deck2와 비교하는 조건문
     System.out.println("처음의 deck1 입니다. " + deck1);
     System.out.println("처음의 deck2 입니다. " + deck2);
-    System.out.println();
 	for(String word : goal) {
 		
 		if(!deck1.isEmpty() && deck1.get(0).equals(word)) { // 덱스1에서 word 탐색
 			deck1.remove(0);   // goal의 word가 deck1에 있을때, 삭제를 해주고, 뒤에 인덱스 요소를 앞으로 끌고 옴
-			System.out.println(word+"는 deck1에 있습니다. :  " + deck1);
 			
 		} else if(!deck2.isEmpty() && deck2.get(0).equals(word)) { // 덱스2에서 word탐색
 			deck2.remove(0);
-			System.out.println(word+"는 deck2에 있습니다. :  " +deck2);
 
 		} else {
 			res = false; // 두덱에서 현재 word(단어)를 찾을 수 없으면, false반환!
-			System.out.println("단어를 포함한 deck이 없습니다.");
 			break;
 		}
+    	System.out.println("deck1 입니다. " + deck1);
+    	System.out.println("deck2 입니다. " + deck2);
 
 		
 	}

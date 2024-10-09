@@ -45,7 +45,7 @@ public class d241009_카드뭉치 {
 			
 		} else if(!deck2.isEmpty() && deck2.get(0).equals(word)) { // 덱스2에서 word탐색
 			deck2.remove(0);
-			System.out.println(word+"는 deck2에 있습니다. :  " +deck2);
+			System.out.println(word+"는 deck2에 있습니다. :  " deck2);
 
 		} else {
 			res = false; // 두덱에서 현재 word(단어)를 찾을 수 없으면, false반환!
