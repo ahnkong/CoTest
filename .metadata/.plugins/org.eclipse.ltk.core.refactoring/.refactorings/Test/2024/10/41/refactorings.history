@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;d241003_푸드파이터.java&apos; to &apos;level1.d241007_덧칠하기.java&apos;&#x0D;&#x0A;- Original project: &apos;Test&apos;&#x0D;&#x0A;- Destination element: &apos;level1.d241007_덧칠하기.java&apos;&#x0D;&#x0A;- Original element: &apos;level2.d241003_푸드파이터.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;level1{d241007_덧칠하기.java" element1="/src&lt;level2{d241003_푸드파이터.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1728523770431" units="1" version="1.0"/>
+</session>

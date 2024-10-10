@@ -12,7 +12,7 @@ public class d241009_카드뭉치 {
 	boolean res = true;
     String answer = "";
 	
-//	ArrayList<String> deck1 = new ArrayList<>(Arrays.asList(cards1)); //Arrays를 List로 변환시킬래! 라는 거! 
+////	ArrayList<String> deck1 = new ArrayList<>(Arrays.asList(cards1)); //Arrays를 List로 변환시킬래! 라는 거! 
 //	ArrayList<String> deck2 = new ArrayList<>(Arrays.asList(cards2));
 	
     ArrayList<String> deck1 = new ArrayList<>();
@@ -41,11 +41,11 @@ public class d241009_카드뭉치 {
 		
 		if(!deck1.isEmpty() && deck1.get(0).equals(word)) { // 덱스1에서 word 탐색
 			deck1.remove(0);   // goal의 word가 deck1에 있을때, 삭제를 해주고, 뒤에 인덱스 요소를 앞으로 끌고 옴
-			System.out.println(word+"는 deck1에서 제거 : " + deck1);
+			System.out.println(word+"는 deck1에서 제거 :  " + deck1);
 			
 		} else if(!deck2.isEmpty() && deck2.get(0).equals(word)) { // 덱스2에서 word탐색
 			deck2.remove(0);
-			System.out.println(word+"는 deck2에서 제거 : " +deck2);
+			System.out.println(word+"는 deck2에서 제거 :  " +deck2);
 
 		} else {
 			res = false; // 두덱에서 현재 word(단어)를 찾을 수 없으면, false반환!

@@ -12,7 +12,7 @@ public class d241009_카드뭉치 {
 	boolean res = true;
     String answer = "";
 	
-//	ArrayList<String> deck1 = new ArrayList<>(Arrays.asList(cards1)); //Arrays를 List로 변환시킬래! 라는 거! 
+////	ArrayList<String> deck1 = new ArrayList<>(Arrays.asList(cards1)); //Arrays를 List로 변환시킬래! 라는 거! 
 //	ArrayList<String> deck2 = new ArrayList<>(Arrays.asList(cards2));
 	
     ArrayList<String> deck1 = new ArrayList<>();
