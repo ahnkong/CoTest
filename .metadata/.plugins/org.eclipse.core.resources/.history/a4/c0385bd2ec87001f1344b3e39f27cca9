@@ -17,25 +17,23 @@ public class d241011_시저암호 {
 		
         String answer = "";  // 결과를 저장할 변수
         
-        System.out.println("원래 문자열 : " + s);
-        System.out.println();
-        
+        char ch;
         
         for (int i = 0; i < s.length(); i++) {
 			
         	//원래의 문자를 담고, 그 다음에 if 문을 통해 조건 적용
-        	char ch = s.charAt(i);
-        	System.out.println(i + "번째 : " + s.charAt(i) );
+        	ch = s.charAt(i);
+        	System.out.println(ch);
         	
-        	if (ch >= 'A' && ch <= 'Z') {
-        		ch += n;
+        	if (ch >= 'A' && ch >= 'Z') {
+        		ch += ch+1;
         		if(ch >= 'Z') {
         			ch -= 26; // Z이상일때는 다시 A로 리셋
         		}
         	}
         	
-        	if (ch >= 'a' && ch <= 'z') {
-        		ch += n ;
+        	if (ch >= 'a' && ch >= 'z') {
+        		ch += ch+1;
         		if(ch >= 'z') {
         			ch -= 26; // Z이상일때는 다시 A로 리셋
         		}

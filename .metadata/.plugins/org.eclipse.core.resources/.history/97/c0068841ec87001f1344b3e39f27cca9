@@ -1,0 +1,31 @@
+package level1;
+
+
+// 결국 아스키 코드 문제 
+public class d241011_시저암호 {
+	public static void main(String[] args) {
+		
+		//테스트 코드1
+//		String s = "AB";
+//		int n = 1;
+
+		
+		// 테스트 코드2
+		String s = "a B z";
+		int n = 4;
+		
+		
+        String answer = "";  // 결과를 저장할 변수
+        
+        char ch;
+        
+        for (int i = 0; i < s.length(); i++) {
+			
+        	ch = s.charAt(i);
+        	System.out.println(ch);
+        	
+        	
+        	
+		}
+	}    
+}

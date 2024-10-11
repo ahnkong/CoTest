@@ -1,0 +1,33 @@
+package level1;
+
+import java.util.Iterator;
+
+// 결국 아스키 코드 문제 
+public class d241011_시저암호 {
+	public static void main(String[] args) {
+		
+		
+		String s = "AB";
+		int n = 1;
+		
+		String charStr = "";
+		
+		String answer = "";
+
+//		System.out.println((int)str);
+				
+//		for (int i = 0; i < s.length(); i++) {
+//			str += (char)s.charAt(0)+n;
+//			System.out.println(str);
+//			
+//			str += (char)s.charAt(1)+n;
+//			System.out.println(str);
+			
+			
+	
+		for (int i = 0; i < s.length(); i++) {
+			charStr += s.charAt(i)+n;
+			System.out.println((char)charStr);
+		}
+	}
+}
