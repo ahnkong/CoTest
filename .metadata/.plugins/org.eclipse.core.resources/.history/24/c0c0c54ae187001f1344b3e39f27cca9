@@ -20,5 +20,6 @@ public class d241011_시저암호 {
 			System.out.println(i+"번째 "+str+ " ");
 			
 		}
+		System.out.println(str);
 	}
 }
