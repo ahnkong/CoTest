@@ -12,8 +12,7 @@ public class d241012_K번째수_정렬 {
 		int[] cut = new int[7];
 		
 		int[] answer = {};
-		int first = 0;
-		int second = 0;
+		int temp = 0;
 		
 //		System.out.println(commands[0][0]);//2
 //		System.out.println(commands[0][1]); //5
@@ -25,17 +24,16 @@ public class d241012_K번째수_정렬 {
 //		System.out.println(commands[1][2]);//1
 		
 		
-		
 		for (int i = 0; i < commands.length; i++) {
-			first = commands[i][0];
-			System.out.println(i + "번째 - " + first);
+			temp = commands[i][0];
+			System.out.println(i + "번째 - " + temp);
 			
 		}	
 		System.out.println("-----------------");	
 			
 		for (int i = 0; i < commands.length; i++) {
-			second = commands[i][1];
-			System.out.println(i + "번째 - " + second);
+			temp = commands[i][1];
+			System.out.println(i + "번째 - " + temp);
 			
 					
 
