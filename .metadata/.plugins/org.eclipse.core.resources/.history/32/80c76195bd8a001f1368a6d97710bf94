@@ -1,0 +1,17 @@
+public class 가비아코테 {
+	public static void main(String[] args) {
+		
+		int n = 5;
+		
+		int[][] A = {{84,70}, {60, 55}, {56,86}, {73,90}, {94,58}};
+		
+		int[] score = new int[A.length-1];
+		
+		System.out.println(A.length);
+		
+		int answer = 0;
+		
+		
+			
+		}
+	}

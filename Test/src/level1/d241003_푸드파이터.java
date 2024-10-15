@@ -8,7 +8,7 @@ public class d241003_푸드파이터 {
 //		int[] food = {1, 7, 1, 2};
 		
 		String red = "";
-		String blue = "";
+//		String blue = "";
 		
 		Character water = '0';
 		
@@ -42,15 +42,15 @@ public class d241003_푸드파이터 {
 	    //for역순 포문!
 //	    int halfLength = half.length-1;// => 3
 //	    System.out.println(halfLength);
-	    for(int i = half.length-1; i >= 0 ; i--) { // 배열의 인덱스가 0부터 시작하니까 -1해주는거! => 3, 2, 1, 0
-	    	for (int j = 0; j < half[i]; j++) { // 3-0 => 3
-	    		if(half[i]>=1) {
-	    			blue += i;
-	    			System.out.println("blue코너 : " + blue);
-	    		}
-	    	}	
-		}
-//		String blue = new StringBuilder(red).reverse().toString();
+//	    for(int i = half.length-1; i >= 0 ; i--) { // 배열의 인덱스가 0부터 시작하니까 -1해주는거! => 3, 2, 1, 0
+//	    	for (int j = 0; j < half[i]; j++) { // 3-0 => 3
+//	    		if(half[i]>=1) {
+//	    			blue += i;
+//	    			System.out.println("blue코너 : " + blue);
+//	    		}
+//	    	}	
+//		}
+		String blue = new StringBuilder(red).reverse().toString();
 		String answer = red + water + blue; // 문자열은 오는 순서대로 붙으니까!
 
 		System.out.println(answer);

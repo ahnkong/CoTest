@@ -1,0 +1,27 @@
+package gabia;
+public class 가비아코테 {
+	public static void main(String[] args) {
+		
+		int n = 5;
+		int math = 0; //수학점수
+		int en = 0; //영어점수
+		int[][] A = {{84,70}, {60, 55}, {56,86}, {73,90}, {94,58}};
+		
+		int[] score = new int[5];
+
+		for (int i = 0; i <	A.length; i++) {
+				math = A[i][0];
+				en = A[i][1];
+				
+				System.out.println(i + "+"+j+"   math는 : " + math + "    en는 : " + en);
+				
+				
+			}
+		}
+		
+		int answer = 0;
+		
+		
+			
+		}
+	}

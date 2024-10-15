@@ -1,0 +1,39 @@
+package gabia;
+
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+
+public class 가비아코테 {
+	public static void main(String[] args) {
+		
+		int n = 5;
+		int[][] A = {{84,70}, {60, 55}, {56,86}, {73,90}, {94,58}};
+		int answer = 0;
+		
+
+		HashMap<Integer, int[]> scoreMap = new HashMap<>();
+		
+		int math = 0; //수학점수
+		int en = 0; //영어점수
+		
+		int[] test = new int[5];
+		HashMap<Integer, int[]> score = new HashMap<>();
+		
+		
+		for (int i = 0; i <	A.length; i++) {
+				math = A[i][0];
+				en = A[i][1];
+				scoreMap.put(i, new int[] {math,en});
+				System.out.println(scoreMap);
+				test[i] += math+en;
+				System.out.println(Arrays.toString(test));
+				System.out.println(score);
+			}
+			
+		}
+
+		
+	}
+			
