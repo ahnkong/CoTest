@@ -1,0 +1,27 @@
+package level1;
+
+import java.util.Arrays;
+
+public class d241017_JadenCase_문자열_만들기 {
+	public static void main(String[] args) {
+		
+		
+		String s = "3people unFollowed me";
+		
+		String answer = "";
+		
+		String[] words = s.split(" ");// 공백기준으로 나누기
+		
+		System.out.println(Arrays.toString(words));
+		
+		for(String str : words) {
+			if(str.length() > 0 ) {
+				String transeStr = str.substring(0,1).toUpperCase() + str.subString(1).toLowerCase();
+				answer += transeStr + " ";
+				
+			}
+		}
+		answer = answer.trim();
+		System.out.println(answer);
+	}
+}
