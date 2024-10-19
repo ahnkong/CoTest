@@ -49,9 +49,9 @@ public class d241018_추억점수 {
 					result[i] += sum;
 					
 				} else { // 사실 이거 추가 안해줘도 되는데, 출력문 이쁘게 하려고 추가
-//					System.out.println();
+					System.out.println();
 				}
-			sum = 0; // 다음 행을 탐색할때, 다시 0으로 초기화
+				sum = 0; // 다음 행을 탐색할때, 다시 0으로 초기화
 				
 			}
 			System.out.println("    " + Arrays.toString(result));
