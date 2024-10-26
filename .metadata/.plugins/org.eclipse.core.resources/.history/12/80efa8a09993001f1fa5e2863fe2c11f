@@ -1,0 +1,10 @@
+package level1;
+
+public class 수포자 {
+	public static void main(String[] args) {
+		
+		int[] answers = {};
+		int[] answer = {};
+		
+	}
+}

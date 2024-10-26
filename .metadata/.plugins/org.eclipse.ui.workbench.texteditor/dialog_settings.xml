@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value=","/>
 		<list key="findhistory">
+			<item value="package gabia;"/>
 			<item value="."/>
 			<item value="_list = {12.4.15.46.38.1.14};"/>
 			<item value="&#x09;&#x09;String s = &quot;((()&quot;;"/>

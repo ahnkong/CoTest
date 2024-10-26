@@ -1,0 +1,49 @@
+package gabia;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class retest {
+// 어레이 리스트로 간다!
+	// set을 이용해서, 바꿔주면서 
+	public static void main(String[] args) {
+		
+		int N = 0;
+		int[] A = {4, 16, 4, 5, 4};
+		
+		
+		ArrayList<Integer> ties = new ArrayList<>();
+		//타이 어레이리스트에 넣기
+		for(int tie : A) {
+			ties.add(tie);
+			System.out.println(tie);
+		}
+		
+//		Collections.sort(ties);
+		
+		int root = 0;
+		int find = 0;
+		int attach = 0;
+		for (int i = 0; i < ties.size(); i++) {
+			for (int j = 1 ; j < ties.size(); j++) {
+				if( ties.get(i) == ties.get(i+j)) {
+					attach = (ties.get(i) + ties.get(j))/2;
+					ties.add(ties.get(i), attach);
+					ties.add(ties.get(j), attach);
+					
+					System.out.println(ties);
+				} else if( ties.get(i) - ties.get(i+j) == 1 || ties.get(i) - ties.get(i+j) == -1 ) {
+					attach = (ties.get(i)+ties.get(j))/2;
+					ties.remove(ties.get(i));
+					ties.remove(ties.get(j));
+					ties.add(attach);
+				}
+				System.out.println(ties);
+				
+			}
+		}
+//		System.out.println(ties);
+	
+	}
+	
+}

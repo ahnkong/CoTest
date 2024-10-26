@@ -1,0 +1,26 @@
+package level1;
+
+public class 기사단원의무기 {
+	public static void main(String[] args) {
+		
+		int number = 10;
+		int limit = 3;
+		int power = 2;
+		int temp = 0;
+		int temp2 = 0;
+		
+		int answer = 0;
+		for (int i = 1; i < number; i++) {
+			for (int j = 1; j <= i; j++) {
+				temp = i%j;
+				if(temp == 0 ) {
+					temp2++;
+					System.out.println(temp2);
+				}
+			}
+		}
+		
+		
+	}
+}
+// 답은 10이 나와야함
