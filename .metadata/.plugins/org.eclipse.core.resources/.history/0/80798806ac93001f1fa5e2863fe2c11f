@@ -19,23 +19,18 @@ public class 기사단원의무기 {
 		int answer = 0;
 
 		
+		int[] sord = new int[number];
 		int divCount = 0;
+		int temp2 = 0;
 		
 		for (int i = 1; i <= number; i++) {
 			divCount = 0;
 			System.out.println("i는 " + i );
-           for (int j = 1; j * j <= i; j++) { // 제곱근까지만 비교하기
-                if (i % j == 0) {
-                    divCount++; // j는 약수
-                    if (j != i / j) { // 서로 다른 두 약수 j와 i/j
-                        divCount++;
-                    }	
-                }				
-//			for (int j = 1; j <= i; j++) {
-////				System.out.println("   j는 " + j +" temp는 " +temp);
-//				if( i%j == 0 ) {
-//					divCount++;
-//				}	
+			for (int j = 1; j <= i; j++) {
+//				System.out.println("   j는 " + j +" temp는 " +temp);
+				if( i%j == 0 ) {
+					divCount++;
+				}	
 			}	
 			System.out.println("   숫자 " + i + "에 대한 약수의 갯수 : " + divCount);
 			System.out.println();
