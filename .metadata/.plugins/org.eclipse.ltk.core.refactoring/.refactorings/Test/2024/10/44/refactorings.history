@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;level1.기사단원의무기&apos; to &apos;d241028_기사단원의무기&apos;&#x0D;&#x0A;- Original project: &apos;Test&apos;&#x0D;&#x0A;- Original element: &apos;level1.기사단원의무기&apos;&#x0D;&#x0A;- Renamed element: &apos;level1.d241028_기사단원의무기&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;기사단원의무기&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;level1{기사단원의무기.java[기사단원의무기" matchStrategy="1" name="d241028_기사단원의무기" qualified="false" references="true" similarDeclarations="false" stamp="1730126936811" textual="false" version="1.0"/>
+</session>

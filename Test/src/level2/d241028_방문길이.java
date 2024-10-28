@@ -1,0 +1,5 @@
+package level2;
+
+public class d241028_방문길이 {
+
+}
