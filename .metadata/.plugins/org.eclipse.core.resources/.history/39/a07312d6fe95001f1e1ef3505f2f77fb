@@ -1,0 +1,50 @@
+package level2;
+
+import java.util.Arrays;
+import java.util.HashMap;
+
+public class d241028_방문길이 {
+	public static void main(String[] args) {
+		String dirs = "ULURRDLLU";
+		int answer = 0;
+		int cnt = 0;
+		
+		int x = 0;
+		int y = 0;
+		int[][] arr1 = new int[dirs.length()][];
+		int[] arr2 = new int[2];
+		
+		HashMap<Integer, int[]> hash = new HashMap<>();
+		for (int i = 0; i < dirs.length(); i++) {
+			if(dirs.charAt(i) == 'U') {
+				y++;
+				cnt++;
+			}
+			if(dirs.charAt(i) == 'D') {
+				y--;
+				cnt++;
+			}
+			if(dirs.charAt(i) == 'R') {
+				x++;
+				cnt++;
+			}
+			if(dirs.charAt(i) == 'L') {
+				x--;
+				cnt++;
+			}
+			
+			for(int j = 0; j < arr2.length; j++ ) {
+				arr2[0] = x;
+				arr2[1] = y;
+//				hash.
+				
+			}
+		}
+		
+		
+		System.out.println(Arrays.toString(arr2));
+		
+		
+		
+	}
+}
