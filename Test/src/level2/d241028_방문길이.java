@@ -42,6 +42,10 @@ public class d241028_방문길이 {
                 continue;
             }
             
+            
+            String startRoute = prevX + " " + prevY + "-" + x + y;
+            String endRoute = x + " " + y + "-" + prevX + prevY;
+            
             // 현재 위치를 arr2에 저장
             int[] arr2 = {x, y};
             
@@ -59,6 +63,7 @@ public class d241028_방문길이 {
                 hash.put(index++, arr2); // 현재 인덱스를 키로 사용
                 answer++; // 중복되지 않은 경로 카운팅
             }
+            
             System.out.println("HashMap 상태:");
             for (Map.Entry<Integer, int[]> entry : hash.entrySet()) {
                 System.out.println("Key: " + entry.getKey() + ", Value: " + Arrays.toString(entry.getValue()));

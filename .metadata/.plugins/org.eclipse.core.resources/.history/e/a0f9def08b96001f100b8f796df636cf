@@ -1,0 +1,30 @@
+package level0;
+
+import java.util.Arrays;
+
+public class d241030_두정수사이의합 {
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 3;
+		long answer =0;
+		long temp =0;
+		int[] arr = new int[2];
+		arr[0] = a;
+		arr[1] = b;
+		
+		Arrays.sort(arr);
+		
+		System.out.println(Arrays.toString(arr));
+		
+        for(int i = 0; i < arr.length ; i++){
+        	for (int j = 0; j < arr.length; j++) {
+        		temp=arr[i]+j;
+        		if(arr[i] + j<=b) {
+        			answer = arr[i];
+        		}
+            }
+        	System.out.println(answer);
+        }    
+        
+	}
+}

@@ -1,0 +1,19 @@
+package level1;
+
+public class d241030_자릿수_더하기 {
+	public static void main(String[] args) {
+		
+		int n = 123;
+		String strN = n + "";
+		System.out.println(strN);
+		int answer = 0;
+		int temp = 0;
+		
+		for (int i = 0; i < strN.length(); i++) {
+			System.out.println(i+ "번째 " + strN.charAt(i));
+			temp = Integer.parseInt(strN, i);
+			answer += temp;
+		}
+		System.out.println(answer);
+	}
+}

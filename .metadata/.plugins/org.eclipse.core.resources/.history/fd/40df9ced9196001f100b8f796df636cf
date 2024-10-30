@@ -1,0 +1,29 @@
+package level0;
+
+
+
+public class d241030_두정수사이의합 {
+	public static void main(String[] args) {
+		int a = 1;
+		int b =5 ;
+		long answer =0;
+		long temp =0;
+		
+		if(a!=b) {
+			temp = Math.abs(a-b);	
+		} else {
+			temp = a;
+		}
+		System.out.println("두수 사이의 값 : " + temp);
+		for (int i = 1; i < temp; i++) {
+			answer = a+b;
+			if( a>b) {
+				answer += a + i;
+			} else {
+				answer += a -i ;
+			}
+			System.out.println("값 : "+ answer);
+        }  
+		System.out.println(answer);
+	}
+}

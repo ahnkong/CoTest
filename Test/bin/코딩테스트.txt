@@ -6,3 +6,19 @@ git : ctrl+alt+shift + t => bash로
 		answer += Character.toLowerCase(nowChar);//toLowerCase : 소문자로~
 		
 	- 문자열의 덧셈은 그냥 합쳐진댜! 그래서 += 하면 뒤에 차곡차곡 붙는다!	
+	
+	
+	
+	
+https://nota.tistory.com/49
+# int를 Str문자열 만들기
+
+	int num = 1234;
+	
+	String strNum = num + "";
+	String strNum2 = Integer.toString(num);
+
+
+
+	
+#

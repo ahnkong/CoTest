@@ -1,0 +1,17 @@
+package level1;
+
+public class d241030_자릿수_더하기 {
+	public static void main(String[] args) {
+		
+		int n = 123;
+		String strN = n + "";
+		System.out.println(strN);
+		int answer = 0;
+		
+		
+		for (int i = 0; i < strN.length(); i++) {
+			answer += strN.charAt(i);
+			System.out.println(answer);
+		}
+	}
+}
