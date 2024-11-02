@@ -1,0 +1,16 @@
+package prac;
+
+public class mindal {
+	public static void main(String[] args) {
+	
+		int num1;
+		num1 = 2000;
+		System.out.println(num1);
+		
+		long num3 = 134939820938L;
+		
+		double num4 = 128.4D;
+		System.out.println(num3);
+		
+	}
+}

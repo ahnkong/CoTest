@@ -1,0 +1,30 @@
+package prac;
+
+import java.util.Scanner;
+
+public class grade {
+	public static void main(String[] args) {
+		
+//		char grade = 'F';
+		
+		System.out.println("성적을 입력해주세요!");
+		Scanner sc = new Scanner(System.in);
+		char grade = sc.next();
+		switch (grade) {
+		case 'A':
+			System.out.println("91~100점 사이 입니다.");
+			break;
+		case 'B':
+			System.out.println("91~100점 사이 입니다.");
+			break;
+		case 'C':
+			System.out.println("91~100점 사이 입니다.");
+			break;
+		case 'D':
+			System.out.println("91~100점 사이 입니다.");
+			break;
+		default:
+			break;
+		}
+	}
+}
