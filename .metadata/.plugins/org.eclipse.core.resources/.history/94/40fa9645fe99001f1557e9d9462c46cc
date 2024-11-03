@@ -1,0 +1,38 @@
+package level2;
+
+import java.util.Arrays;
+import java.util.HashMap;
+
+public class d241103_귤고르기 {
+	public static void main(String[] args) {
+		
+		int k = 4;
+		int temp =0;
+		int cnt = 0;
+		int[] tangerine = {1,3,2,5,4,5,2,3};
+		
+//		Arrays.sort(tangerine);
+//		System.out.println(Arrays.toString(tangerine));
+		
+		
+		//1. 사이즈와 귤의 갯수를  hashmap으로 짝지어 주기
+		HashMap<Integer, Integer> tangSize = new HashMap<>();
+		for(int tangerines : tangerine) {
+			tangSize.put(tangerines, tangSize.getOrDefault(tangerines, 0)+1);
+			// tangSize에 tangerines 이거랑 같은 값이 키로 존재하는지 찾아줘! // 없으면 0으로 반환하고,
+		}
+		System.out.println(tangSize);
+		
+		
+//		System.out.println(tangSize.size());
+		
+
+		//키에 해당하는 값들을 더해 나가면서, 
+		//이게 sum <= 4 일때만, cnt++을 해서 temp2에 담아주고,
+		//answer = temp2를 담아준다음에,
+		//다음에  cnt가 answer보다 크면, 저장하지 않고, 작으면 값을 바꿔서 저장하는 걸로 코드를 짜면 될듯
+		for (int i = 0; i < tangSize.size(); i++) {
+			tangSize.get(i);
+		}
+	}	
+}

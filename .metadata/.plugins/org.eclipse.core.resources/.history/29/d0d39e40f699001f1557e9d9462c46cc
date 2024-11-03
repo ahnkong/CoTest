@@ -6,8 +6,8 @@ import java.util.Map;
 
 public class d241028_방문길이2 {
     public static void main(String[] args) {
-        String dirs = "ULURRDLLU";
-//        String dirs = "UDLRDURL";
+//        String dirs = "ULURRDLLU";
+        String dirs = "UDLRDURL";
         int answer = 0;
         
         //좌표는 0,0에서 시작
@@ -68,27 +68,8 @@ public class d241028_방문길이2 {
                 System.out.println("Key: " + key + ", Visited: " + pathMap.get(key));
             }
             System.out.println("현재 위치: (" + x + ", " + y + ")");
-            System.out.println("지금 경로수 : " + answer);
         }
         
         System.out.println("중복되지 않은 경로 수: " + answer);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
