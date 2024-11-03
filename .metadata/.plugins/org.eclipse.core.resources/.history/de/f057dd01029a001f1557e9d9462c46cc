@@ -1,0 +1,17 @@
+package level2;
+
+import java.util.Arrays;
+
+public class d241103_최댓값과최솟값 {
+	public static void main(String[] args) {
+		String s = "1 2 3 4";
+		String answer ="";
+		
+		
+		String[] str = s.split("\\s");
+		
+		System.out.println(Arrays.toString(str));
+	}
+	
+
+}

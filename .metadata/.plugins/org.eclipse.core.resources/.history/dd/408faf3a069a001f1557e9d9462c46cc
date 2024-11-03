@@ -32,9 +32,9 @@ public class d241103_귤고르기 {
 	
 		
 //        // 2. 갯수가 많은 순으로 내림차순으로 정렬
-        ArrayList<Integer> bigPcs = new ArrayList<>(tangSize.values());
-        Collections.sort(bigPcs, Collections.reverseOrder());
-        
+////        ArrayList<Integer> bigPcs = new ArrayList<>(tangSize.values());
+////        Collections.sort(bigPcs, Collections.reverseOrder());
+//        
  
 //        Integer[] bigPcs = tangSize.values().toArray(new Integer[0]); // hashmap의 반환타입을 맞춰주기 위해 int[]이 아닌 Integer[]을 사용
 //        Arrays.sort(bigPcs, Collections.reverseOrder());

@@ -1,7 +1,6 @@
 package level2;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -29,17 +28,19 @@ public class d241103_귤고르기 {
 		
 		
 //		System.out.println(tangSize.size());
-	
 		
-//        // 2. 갯수가 많은 순으로 내림차순으로 정렬
+
+		//키에 해당하는 값들을 더해 나가면서, 
+		//이게 sum <= 4 일때만, cnt++을 해서 temp2에 담아주고,
+		//answer = temp2를 담아준다음에,
+		//다음에  cnt가 answer보다 크면, 저장하지 않고, 작으면 값을 바꿔서 저장하는 걸로 코드를 짜면 될듯
+		
+		
+        // 2. 빈도 수를 내림차순으로 정렬하기 위해 List에 추가
         ArrayList<Integer> bigPcs = new ArrayList<>(tangSize.values());
         Collections.sort(bigPcs, Collections.reverseOrder());
         
- 
-//        Integer[] bigPcs = tangSize.values().toArray(new Integer[0]); // hashmap의 반환타입을 맞춰주기 위해 int[]이 아닌 Integer[]을 사용
-//        Arrays.sort(bigPcs, Collections.reverseOrder());
-//        
-        // 3. 갯수가 많은 것부터 선택하여 k개를 채울 때까지 종류 수 카운트
+        // 3. 빈도 수가 높은 것부터 선택하여 k개를 채울 때까지 종류 수 카운트
         for (int count : bigPcs) {
             sum += count; // 현재 크기의 귤 개수를 더해가며 k개에 도달할 때까지 진행
             cnt++;        // 사용한 귤 종류의 수를 증가

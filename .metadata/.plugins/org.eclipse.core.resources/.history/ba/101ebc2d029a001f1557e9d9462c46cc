@@ -1,0 +1,27 @@
+package level2;
+
+import java.util.Arrays;
+
+public class d241103_최댓값과최솟값 {
+	public static void main(String[] args) {
+//		String s = "1 2 3 4";
+		String s = "-1 -2 -3 -4";
+		String answer ="";
+		
+		int num = 0;
+		long min = Integer.MIN_VALUE;
+		long max = Integer.MAX_VALUE;
+		
+		for( String numStr : s.split("\\s")) {
+			num = Integer.parseInt(numStr);
+			
+			min = Math.min(min, num);
+			max = Math.max(max, num);
+		}
+		
+		answer = min + " " + max;
+		System.out.println(answer);
+	}
+	
+
+}

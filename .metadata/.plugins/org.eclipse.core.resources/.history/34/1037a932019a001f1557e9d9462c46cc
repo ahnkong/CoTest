@@ -1,0 +1,13 @@
+package level2;
+
+public class d241103_최댓값과최솟값 {
+	public static void main(String[] args) {
+		String s = "1 2 3 4";
+		String answer ="";
+		
+		
+		int number = s.split("\\s");
+		int[] number = new 
+	}
+
+}
