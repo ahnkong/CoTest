@@ -19,7 +19,7 @@ public class loop_dowhile {
 //			System.out.println("sum : "+ sum);
 //			System.out.println("i : "+i);
 		
-		System.out.println("--___------------------------------------");
+		System.out.println("--------------------------------------");
 		
 		int treeHit = 0;
 		while (treeHit < 10) {
